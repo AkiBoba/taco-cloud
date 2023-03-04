@@ -3,6 +3,7 @@ package com.example.tacocloud;
 import com.example.tacocloud.controllers.HomeController;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.test.web.servlet.MockMvc;
 
@@ -19,11 +20,8 @@ import static
 @Slf4j
 @WebMvcTest(HomeController.class)
 public class HomeControllerTest {
-    private final MockMvc mockMvc;
 
-    public HomeControllerTest(MockMvc mockMvc) {
-        this.mockMvc = mockMvc;
-    }
+    private MockMvc mockMvc;
 
     @Test
     public void testHomePage() {
