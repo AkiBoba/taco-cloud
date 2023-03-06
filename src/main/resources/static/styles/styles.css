@@ -1,0 +1,8 @@
+.grid {
+    display: grid;
+    gap: 20px;
+    align-content: stretch;
+    align-items: baseline;
+    justify-items: stretch;
+    justify-content: center;
+}
