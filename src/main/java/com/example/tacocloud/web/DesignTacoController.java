@@ -64,13 +64,4 @@ public class DesignTacoController {
                 .collect(Collectors.toList());
     }
 
-    @PostMapping("/design")
-    public void processTaco(Taco taco, @ModelAttribute TacoOrder tacoOrder) {
-//        tacoOrder.addTaco(taco);
-//        log.info("Processing taco: {}", taco);
-//        return "design";
-//        return "redirect:/orders/current";
-        log.info("post");
-    }
-
 }

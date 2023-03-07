@@ -4,5 +4,11 @@
     align-content: stretch;
     align-items: baseline;
     justify-items: stretch;
-    justify-content: center;
+    justify-content: left;
+}
+
+.container {
+    position: relative;
+    width: 1140px;
+    margin: 0 auto;
 }
