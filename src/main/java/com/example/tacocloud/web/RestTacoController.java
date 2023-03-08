@@ -14,6 +14,6 @@ public class RestTacoController {
     public String processTaco(@RequestBody Taco taco, @ModelAttribute TacoOrder tacoOrder) {
         tacoOrder.addTaco(taco);
         log.info("Processing taco: {}", taco);
-        return "redirect:/orders";
+        return "redirect:/orders/current";
     }
 }

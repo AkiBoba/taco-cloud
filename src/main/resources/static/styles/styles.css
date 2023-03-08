@@ -1,14 +1,24 @@
 .grid {
     display: grid;
-    gap: 20px;
-    align-content: stretch;
-    align-items: baseline;
-    justify-items: stretch;
-    justify-content: left;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1px;
+    grid-auto-rows: minmax(100px, auto);
 }
 
 .container {
     position: relative;
-    width: 1140px;
+    width: 800px;
     margin: 0 auto;
+}
+
+.nav-menu__list {
+    display: flex;
+    flex-direction: row;
+}
+.nav-menu__list-item {
+    margin-right: 64px;
+    font-size: 18px;
+    font-weight: bold;
+    /*&:last-child*/
+    /*margin-right: 0px*/
 }
