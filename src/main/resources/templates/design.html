@@ -3,57 +3,62 @@
       xmlns:th="http://www.thymeleaf.org">
 <head>
     <title>Taco Cloud</title>
-    <link rel="stylesheet" th:href="@{styles.css}" />
+    <link rel="stylesheet" th:href="@{styles/styles.css}"/>
+    <script th:src="@{script/jquery-3.3.1.min.js}"></script>
+    <script type="module" th:src="@{script/script.js}"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body class="container container-main">
 <h1>Design your taco!</h1>
-<img th:src="@{images/TacoCloud.png}"/>
 
-<form method="POST" th:object="${taco}">
+<!--<form th:action="@{/design}" method="POST" th:object="${taco}">-->
+<div method="POST" th:object="${taco}">
+    <img th:src="@{images/TacoCloud.png}" width="250"/>
     <div class="grid">
         <div class="ingredient-group" id="wraps">
             <h3>Designate your wrap:</h3>
             <div th:each="ingredient : ${wrap}">
-                <input th:field="*{ingredients}" type="checkbox"
+                <input id="wrapId" th:field="*{ingredients}" type="checkbox"
                        th:value="${ingredient.id}"/>
-                <span th:text="${ingredient.name}">INGREDIENT</span><br/>
+                <span id="wrapName" th:text="${ingredient.name}">INGREDIENT</span><br/>
             </div>
         </div>
 
         <div class="ingredient-group" id="proteins">
             <h3>Pick your protein:</h3>
             <div th:each="ingredient : ${protein}">
-                <input th:field="*{ingredients}" type="checkbox"
+                <input id="proteinId" th:field="*{ingredients}" type="checkbox"
                        th:value="${ingredient.id}"/>
-                <span th:text="${ingredient.name}">INGREDIENT</span><br/>
+                <span id="proteinName" th:text="${ingredient.name}">INGREDIENT</span><br/>
             </div>
         </div>
 
         <div class="ingredient-group" id="cheeses">
             <h3>Choose your cheese:</h3>
             <div th:each="ingredient : ${cheese}">
-                <input th:field="*{ingredients}" type="checkbox"
+                <input id="cheeseId" th:field="*{ingredients}" type="checkbox"
                        th:value="${ingredient.id}"/>
-                <span th:text="${ingredient.name}">INGREDIENT</span><br/>
+                <span id="cheeseName" th:text="${ingredient.name}">INGREDIENT</span><br/>
             </div>
         </div>
 
         <div class="ingredient-group" id="veggies">
             <h3>Determine your veggies:</h3>
             <div th:each="ingredient : ${veggies}">
-                <input th:field="*{ingredients}" type="checkbox"
+                <input id="veggiesId" th:field="*{ingredients}" type="checkbox"
                        th:value="${ingredient.id}"/>
-                <span th:text="${ingredient.name}">INGREDIENT</span><br/>
+                <span id="veggiesName" th:text="${ingredient.name}">INGREDIENT</span><br/>
             </div>
         </div>
 
         <div class="ingredient-group" id="sauces">
             <h3>Select your sauce:</h3>
             <div th:each="ingredient : ${sauce}">
-                <input th:field="*{ingredients}" type="checkbox"
+                <input id="sauceId" th:field="*{ingredients}" type="checkbox"
                        th:value="${ingredient.id}"/>
-                <span th:text="${ingredient.name}">INGREDIENT</span><br/>
+                <span id="sauceName" th:text="${ingredient.name}">INGREDIENT</span><br/>
             </div>
         </div>
     </div>
@@ -62,11 +67,10 @@
 
 
         <h3>Name your taco creation:</h3>
-        <input type="text" th:field="*{name}"/>
-        <br/>
+        <input id="name" type="text" th:field="*{name}"/>
 
-        <button>Submit Your Taco</button>
+        <button id="save">Submit Your Taco</button>
     </div>
-</form>
+</div>
 </body>
 </html>
