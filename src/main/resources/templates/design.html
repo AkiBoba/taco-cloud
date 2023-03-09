@@ -15,7 +15,7 @@
 
 <!--<form th:action="@{/design}" method="POST" th:object="${taco}">-->
 <div method="POST" th:object="${taco}">
-    <img th:src="@{images/TacoCloud.png}" width="250"/>
+    <img th:src="@{images/TacoCloud_s.png}"/>
     <div class="grid">
         <div class="ingredient-group" id="wraps">
             <h3>Designate your wrap:</h3>
@@ -71,6 +71,13 @@
 
         <button id="save">Submit Your Taco</button>
     </div>
+    <div>
+        <span class="new-taco" hidden>Вы добавили новый рецепт тако</span>
+        <br>
+        <span class="new-taco item"></span>
+    </div>
+
+        <a th:href="@{/gotocurrentorder}"><button method="GET" class="new-order" hidden>Перейти к оформлению заказа</button></a>
 </div>
 </body>
 </html>

@@ -4,6 +4,10 @@ import java.util.List;
 import java.util.ArrayList;
 import lombok.Data;
 
+
+/**
+ * Класс содержит поля идентифицирующие характеристики заказа клиента
+ */
 @Data
 public class TacoOrder {
 

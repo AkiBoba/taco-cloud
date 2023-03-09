@@ -2,6 +2,9 @@ package com.example.tacocloud.domain;
 
 import lombok.Data;
 
+/**
+ * Класс содержит поля идентифицирующие характеристики ингредиентов
+ */
 @Data
 public class Ingredient {
 

@@ -2,6 +2,7 @@
      let ingredients = getIngredients();
      let name = $("#name").val();
      let taco = createTacoObject(name, ingredients);
+     console.log(taco.name)
      save(taco);
     })
 
@@ -46,13 +47,18 @@
  function save(taco) {
      console.log("save")
      $.ajax({
-         url: '/design',
+         url: '/ordersadd',
          type: 'post',
          data: JSON.stringify(taco),
          headers: {
              'Accept': 'application/json',
              'Content-Type': 'application/json'
+         },
+         complete: function(data){
+             console.log(data.status);
+             $(".new-taco").removeAttr("hidden");
+             $(".item").text(taco.name);
+             $(".new-order").removeAttr("hidden");
          }
-
      });
  }

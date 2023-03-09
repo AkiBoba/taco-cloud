@@ -15,10 +15,13 @@ import java.util.stream.Collectors;
 
 @Slf4j
 @Controller
-@RequestMapping("/design")
 @SessionAttributes("tacoOrder")
 public class DesignTacoController {
 
+    /**
+     * Этот метод используется для добавления в модель атрибутов со значениями ингредиентов
+     * @param model контейнер в котором будут сохранены аргументы для отправки их веб-представлению.
+     */
     @ModelAttribute
     public void addIngredientsToModel(Model model) {
         List<Ingredient> ingredients = Arrays.asList(
@@ -51,7 +54,7 @@ public class DesignTacoController {
         return new Taco();
     }
 
-    @GetMapping
+    @GetMapping("/design")
     public String showDesignForm() {
         return "design";
     }
@@ -62,6 +65,12 @@ public class DesignTacoController {
                 .stream()
                 .filter(x -> x.getType().equals(type))
                 .collect(Collectors.toList());
+    }
+
+    @GetMapping("/gotocurrentorder")
+    public String processTaco(@ModelAttribute TacoOrder tacoOrder) {
+        log.info("Go to current order");
+        return "redirect:/orders/current";
     }
 
 }
