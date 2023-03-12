@@ -58,11 +58,7 @@
              }
              else {
                  console.log("error");
-                 // $.ajax({
-                 //     url: '/design',
-                 //     type: 'get'
-                 // });
-                 $(".validationError").removeAttr("hidden");
+                 alert("Name must be at least 5 characters long. \n You must choose at least 1 ingredient");
              }
          }
      });
