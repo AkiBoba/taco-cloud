@@ -4,6 +4,7 @@ import com.example.tacocloud.domain.Ingredient;
 import com.example.tacocloud.domain.Ingredient.Type;
 import com.example.tacocloud.domain.Taco;
 import com.example.tacocloud.domain.TacoOrder;
+import jakarta.validation.Valid;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -56,6 +57,7 @@ public class DesignTacoController {
 
     @GetMapping("/design")
     public String showDesignForm() {
+        log.info("showDesignForm");
         return "design";
     }
 

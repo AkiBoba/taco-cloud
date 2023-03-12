@@ -2,38 +2,33 @@
      let ingredients = getIngredients();
      let name = $("#name").val();
      let taco = createTacoObject(name, ingredients);
-     console.log(taco.name)
+     // console.log(taco.name)
      save(taco);
     })
 
  function getIngredients() {
      let listOfIngredients = [];
      listOfIngredients.push({
-         id: $("#wrapId").val(),
-         name: $("#wrapName").text(),
+         id: $("#wrapId:checked").val(),
          type: 'WRAP'
      });
      listOfIngredients.push({
-         id: $("#proteinId").val(),
-         name: $("#proteinName").text(),
+         id: $("#proteinId:checked").val(),
          type: 'PROTEIN'
      });
      listOfIngredients.push({
-         id: $("#veggiesId").val(),
-         name: $("#veggiesName").text(),
+         id: $("#veggiesId:checked").val(),
          type: 'VEGGIES'
      });
      listOfIngredients.push({
-         id: $("#cheeseId").val(),
-         name: $("#cheeseName").text(),
+         id: $("#cheeseId:checked").val(),
          type: 'CHEESE'
      });
      listOfIngredients.push({
-         id: $("#sauceId").val(),
-         name: $("#sauceName").text(),
+         id: $("#sauceId:checked").val(),
          type: 'SAUCE'
      });
-     console.log(listOfIngredients[0].id, listOfIngredients[1].name);
+     // console.log(listOfIngredients[0].id, listOfIngredients[1].name);
      return listOfIngredients;
  }
 
@@ -56,9 +51,19 @@
          },
          complete: function(data){
              console.log(data.status);
-             $(".new-taco").removeAttr("hidden");
-             $(".item").text(taco.name);
-             $(".new-order").removeAttr("hidden");
+             if (data.status == 200) {
+                 $(".new-taco").removeAttr("hidden");
+                 $(".item").text(taco.name);
+                 $(".new-order").removeAttr("hidden");
+             }
+             else {
+                 console.log("error");
+                 // $.ajax({
+                 //     url: '/design',
+                 //     type: 'get'
+                 // });
+                 $(".validationError").removeAttr("hidden");
+             }
          }
      });
  }
