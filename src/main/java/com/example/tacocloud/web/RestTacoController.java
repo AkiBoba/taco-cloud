@@ -12,6 +12,7 @@ import org.springframework.ui.Model;
 import org.springframework.validation.Errors;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
@@ -26,10 +27,12 @@ public class RestTacoController {
         if (errors.hasErrors()) {
             return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
         }
-        List<Ingredient> ingredientList = taco.getIngredients();
-        Boolean b = StringUtils.isNotBlank(ingredientList.get(2).getId());
-        log.info(b.toString());
-        ingredientList.stream().filter(ingredient -> !StringUtils.isNotBlank(ingredient.getId())).collect(Collectors.toList());
+        List<Ingredient> ingredientList = new ArrayList<>();
+        taco.getIngredients().forEach(ingredient -> {
+            if (ingredient.getId() != null) {
+                ingredientList.add(ingredient);
+            }
+        });
         taco.setIngredients(ingredientList);
         tacoOrder.addTaco(taco);
         log.info("Processing taco: {}", taco);
