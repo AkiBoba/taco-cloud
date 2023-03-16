@@ -6,6 +6,8 @@ import java.util.List;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
 import lombok.Data;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.relational.core.mapping.Table;
 
 /**
  * Класс содержит поля идентифицирующие характеристики Тако
@@ -13,6 +15,7 @@ import lombok.Data;
  */
 @Data
 public class Taco {
+    @Id
     private Long id;
     private Date createdAt = new Date();
     @NotNull
