@@ -44,8 +44,8 @@ public class OrderController {
         log.info("Order submitted: {}", order);
         order.setPlacedAt(new Date());
         orderRepo.save(order);
+        log.info("Order saved: {}", order);
         sessionStatus.setComplete();
-        log.info("Order saved: ", order);
         return "redirect:/";
     }
 }

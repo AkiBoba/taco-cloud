@@ -3,24 +3,27 @@ package com.example.tacocloud.web;
 import com.example.tacocloud.domain.Ingredient;
 import com.example.tacocloud.domain.Taco;
 import com.example.tacocloud.domain.TacoOrder;
-import io.micrometer.common.util.StringUtils;
+import com.example.tacocloud.repository.IngredientRepository;
 import jakarta.validation.Valid;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.ui.Model;
 import org.springframework.validation.Errors;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Optional;
-import java.util.stream.Collectors;
 
 @Slf4j
 @SessionAttributes("tacoOrder")
 @RestController
 public class RestTacoController {
+
+    private final IngredientRepository ingredientRepository;
+
+    public RestTacoController(IngredientRepository ingredientRepository) {
+        this.ingredientRepository = ingredientRepository;
+    }
 
     @PostMapping("/ordersadd")
     public ResponseEntity processTaco(@RequestBody @Valid Taco taco, Errors errors, @ModelAttribute TacoOrder tacoOrder) {
@@ -29,8 +32,8 @@ public class RestTacoController {
         }
         List<Ingredient> ingredientList = new ArrayList<>();
         taco.getIngredients().forEach(ingredient -> {
-            if (ingredient.getId() != null) {
-                ingredientList.add(ingredient);
+            if (ingredient.getId() != null && ingredientRepository.findById(ingredient.getId()).isPresent()) {
+                ingredientList.add(ingredientRepository.findById(ingredient.getId()).get());
             }
         });
         taco.setIngredients(ingredientList);
