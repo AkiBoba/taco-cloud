@@ -1,11 +1,8 @@
 package com.example.tacocloud.repository;
 
 import com.example.tacocloud.domain.Ingredient;
-import com.example.tacocloud.domain.TacoOrder;
 import org.springframework.jdbc.core.JdbcTemplate;
-import org.springframework.jdbc.support.GeneratedKeyHolder;
 import org.springframework.stereotype.Repository;
-import org.springframework.transaction.annotation.Transactional;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
