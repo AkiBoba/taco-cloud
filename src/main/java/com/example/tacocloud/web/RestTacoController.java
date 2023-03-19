@@ -33,7 +33,8 @@ public class RestTacoController {
         List<Ingredient> ingredientList = new ArrayList<>();
         taco.getIngredients().forEach(ingredient -> {
             if (ingredient.getId() != null && ingredientRepository.findById(ingredient.getId()).isPresent()) {
-                ingredientList.add(ingredientRepository.findById(ingredient.getId()).get());
+                Ingredient ingredient1 = ingredientRepository.findById(ingredient.getId()).get();
+                ingredientList.add(ingredient);
             }
         });
         taco.setIngredients(ingredientList);

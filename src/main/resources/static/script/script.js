@@ -2,9 +2,26 @@
      let ingredients = getIngredients();
      let name = $("#name").val();
      let taco = createTacoObject(name, ingredients);
-     // console.log(taco.name)
      save(taco);
     })
+
+     /*Заполнение полей формы Input в ордере */
+ $("#deliveryName").attr("value", "Vova");
+ $("#deliveryStreet").attr("value", "Спортивная");
+ $("#deliveryCity").attr("value", "Подольск");
+ $("#deliveryState").attr("value", "МО");
+ $("#deliveryZip").attr("value", "142143");
+ $("#ccNumber").attr("value", "2202203260502846");
+ $("#ccExpiration").attr("value", "11/23");
+ $("#ccCVV").attr("value", "123");
+
+     /*Заполнение полей формы Input в Taco */
+ $("#wrapId").attr("checked", "checked");
+ $("#proteinId").attr("checked", "checked");
+ $("#cheeseId").attr("checked", "checked");
+ $("#veggiesId").attr("checked", "checked");
+ $("#sauceId").attr("checked", "checked");
+ $("#name").attr("value", "Junior");
 
  function getIngredients() {
      let listOfIngredients = [];
@@ -28,7 +45,7 @@
          id: $("#sauceId:checked").val(),
          type: 'SAUCE'
      });
-     // console.log(listOfIngredients[0].id, listOfIngredients[1].name);
+     console.log(listOfIngredients)
      return listOfIngredients;
  }
 

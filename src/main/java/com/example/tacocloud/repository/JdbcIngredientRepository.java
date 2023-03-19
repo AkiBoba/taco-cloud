@@ -1,8 +1,11 @@
 package com.example.tacocloud.repository;
 
 import com.example.tacocloud.domain.Ingredient;
+import com.example.tacocloud.domain.TacoOrder;
 import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.jdbc.support.GeneratedKeyHolder;
 import org.springframework.stereotype.Repository;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -10,11 +13,13 @@ import java.util.List;
 import java.util.Optional;
 
 @Repository
-public class JdbcIngredientRepository implements IngredientRepository{
+public class JdbcIngredientRepository implements IngredientRepository {
     private JdbcTemplate jdbcTemplate;
+
     public JdbcIngredientRepository(JdbcTemplate jdbcTemplate) {
         this.jdbcTemplate = jdbcTemplate;
     }
+
     /**
      * @return
      */
