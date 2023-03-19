@@ -3,7 +3,6 @@ package com.example.tacocloud.repository;
 import com.example.tacocloud.domain.Ingredient;
 import com.example.tacocloud.domain.Taco;
 import com.example.tacocloud.domain.TacoOrder;
-import org.springframework.jdbc.core.JdbcOperations;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.support.GeneratedKeyHolder;
 import org.springframework.stereotype.Repository;
@@ -20,20 +19,19 @@ public class JdbcOrderRepository implements OrderRepository {
     String insert_into_Taco_Order = "insert into taco_Order (delivery_name, delivery_street, delivery_city, delivery_state, delivery_zip, cc_number, cc_expiration, cc_cvv, placed_at) values (?,?,?,?,?,?,?,?,?)";
     String insert_into_Taco = "insert into taco (name, created_at, taco_order, taco_order_key) values (?, ?, ?, ?)";
     String insert_into_Ingredient_Ref = "insert into Ingredient_Ref (ingredient, taco, taco_key) values (?, ?, ?)";
-    private JdbcOperations jdbcOperations;
     private JdbcTemplate template;
 
-    public JdbcOrderRepository(JdbcOperations jdbcOperations, JdbcTemplate template) {
-        this.jdbcOperations = jdbcOperations;
+    public JdbcOrderRepository(JdbcTemplate template) {
         this.template = template;
     }
+
 
     @Override
     @Transactional
     public TacoOrder save(TacoOrder order) {
         Long orderId;
         GeneratedKeyHolder keyHolder = new GeneratedKeyHolder();
-        this.template.update(conn -> {
+        template.update(conn -> {
             PreparedStatement st = conn.prepareStatement(insert_into_Taco_Order, new String[]{"id"});
                     st.setString(1,order.getDeliveryName());
                     st.setString(2,order.getDeliveryStreet());
@@ -60,7 +58,7 @@ public class JdbcOrderRepository implements OrderRepository {
     private long saveTaco(Long orderId, int orderKey, Taco taco) {
         Long tacoId;
         GeneratedKeyHolder keyHolder = new GeneratedKeyHolder();
-        this.template.update(conn -> {
+        template.update(conn -> {
             PreparedStatement st = conn.prepareStatement(insert_into_Taco, new String[]{"id"});
             st.setString(1, taco.getName());
             st.setTimestamp(2, new Timestamp(new Date().getTime()));
@@ -78,9 +76,8 @@ public class JdbcOrderRepository implements OrderRepository {
     private void saveIngredientRefs(long tacoId, List<Ingredient> ingredients) {
         int key = 0;
         for (Ingredient ingredient : ingredients) {
-            jdbcOperations.update(
-                    insert_into_Ingredient_Ref,
-                    ingredient.getId(), tacoId, key++);
+            template.update(insert_into_Ingredient_Ref,
+                ingredient.getId(), tacoId, key++);
         }
     }
 }
