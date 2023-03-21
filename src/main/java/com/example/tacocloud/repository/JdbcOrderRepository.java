@@ -16,9 +16,9 @@ import java.util.Objects;
 
 @Repository
 public class JdbcOrderRepository implements OrderRepository {
-    String insert_into_Taco_Order = "insert into taco_Order (delivery_name, delivery_street, delivery_city, delivery_state, delivery_zip, cc_number, cc_expiration, cc_cvv, placed_at) values (?,?,?,?,?,?,?,?,?)";
-    String insert_into_Taco = "insert into taco (name, created_at, taco_order, taco_order_key) values (?, ?, ?, ?)";
-    String insert_into_Ingredient_Ref = "insert into Ingredient_Ref (ingredient, taco, taco_key) values (?, ?, ?)";
+    private static final String insert_into_Taco_Order = "insert into taco_Order (delivery_name, delivery_street, delivery_city, delivery_state, delivery_zip, cc_number, cc_expiration, cc_cvv, placed_at) values (?,?,?,?,?,?,?,?,?)";
+    private static final String insert_into_Taco = "insert into taco (name, created_at, taco_order, taco_order_key) values (?, ?, ?, ?)";
+    private static final String insert_into_Ingredient_Ref = "insert into Ingredient_Ref (ingredient, taco, taco_key) values (?, ?, ?)";
     private JdbcTemplate template;
 
     public JdbcOrderRepository(JdbcTemplate template) {
