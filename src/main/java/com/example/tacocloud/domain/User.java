@@ -2,29 +2,39 @@ package com.example.tacocloud.domain;
 
 import java.util.Arrays;
 import java.util.Collection;
+
+import lombok.*;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.
         SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
-import lombok.AccessLevel;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-import lombok.RequiredArgsConstructor;
 
 @Data
-@NoArgsConstructor(access=AccessLevel.PRIVATE, force=true)
-@RequiredArgsConstructor
+@NoArgsConstructor
+@AllArgsConstructor
 public class User implements UserDetails {
     private static final long serialVersionUID = 1L;
     private Long id;
-    private final String username;
-    private final String password;
-    private final String fullName;
-    private final String street;
-    private final String city;
-    private final String state;
-    private final String zip;
-    private final String phoneNumber;
+    private String username;
+    private String password;
+    private String fullName;
+    private String street;
+    private String city;
+    private String state;
+    private String zip;
+    private String phoneNumber;
+
+    public User(String username, String password, String fullName, String street, String city, String state, String zip, String phoneNumber) {
+        this.username = username;
+        this.password = password;
+        this.fullName = fullName;
+        this.street = street;
+        this.city = city;
+        this.state = state;
+        this.zip = zip;
+        this.phoneNumber = phoneNumber;
+    }
+
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
         return Arrays.asList(new SimpleGrantedAuthority("ROLE_USER"));
