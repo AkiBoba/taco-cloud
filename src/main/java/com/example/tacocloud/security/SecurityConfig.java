@@ -46,6 +46,11 @@ public class SecurityConfig {
                 .formLogin()
                 .loginPage("/login")
                 .and()
+                .logout()
+                .logoutSuccessUrl("/login")
+                .and()
+                .csrf()
+                .disable()
                 .build();
     }
 }

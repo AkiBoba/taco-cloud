@@ -3,6 +3,7 @@ package com.example.tacocloud.repository;
 import com.example.tacocloud.domain.Ingredient;
 import com.example.tacocloud.domain.Taco;
 import com.example.tacocloud.domain.TacoOrder;
+import com.example.tacocloud.domain.User;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.support.GeneratedKeyHolder;
 import org.springframework.stereotype.Repository;
@@ -19,12 +20,17 @@ public class JdbcOrderRepository implements OrderRepository {
     private static final String insert_into_Taco_Order = "insert into taco_Order (delivery_name, delivery_street, delivery_city, delivery_state, delivery_zip, cc_number, cc_expiration, cc_cvv, placed_at) values (?,?,?,?,?,?,?,?,?)";
     private static final String insert_into_Taco = "insert into taco (name, created_at, taco_order, taco_order_key) values (?, ?, ?, ?)";
     private static final String insert_into_Ingredient_Ref = "insert into Ingredient_Ref (ingredient, taco, taco_key) values (?, ?, ?)";
+    private static final String insert_into_user_order = "insert into user_order (user_id, order_id) values (?, ?)";
     private JdbcTemplate template;
 
     public JdbcOrderRepository(JdbcTemplate template) {
         this.template = template;
     }
 
+    @Override
+    public void saveUser(User user, Long orderId) {
+        template.update(insert_into_user_order, user.getId(), orderId);
+    }
 
     @Override
     @Transactional
