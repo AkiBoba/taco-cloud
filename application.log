@@ -1,0 +1,284 @@
+2023-03-27T14:30:30.992+03:00  INFO 4140 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : Starting TacoCloudApplication using Java 18.0.1.1 with PID 4140 (C:\projects\taco-cloud\target\classes started by yo114 in C:\projects\taco-cloud)
+2023-03-27T14:30:30.993+03:00  INFO 4140 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-03-27T14:30:31.024+03:00  INFO 4140 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-27T14:30:31.024+03:00  INFO 4140 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-27T14:30:31.372+03:00  INFO 4140 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-03-27T14:30:31.384+03:00  INFO 4140 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 JDBC repository interfaces.
+2023-03-27T14:30:31.705+03:00  INFO 4140 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-27T14:30:31.711+03:00  INFO 4140 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-27T14:30:31.711+03:00  INFO 4140 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-27T14:30:31.751+03:00  INFO 4140 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-27T14:30:31.751+03:00  INFO 4140 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 726 ms
+2023-03-27T14:30:32.164+03:00  INFO 4140 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5108398a, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4ef50459, org.springframework.security.web.context.SecurityContextHolderFilter@bdc0cde, org.springframework.security.web.header.HeaderWriterFilter@29c4eaac, org.springframework.security.web.authentication.logout.LogoutFilter@7bea75f0, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@104b88d0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@57e984f0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1dfb06a6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@ceaf558, org.springframework.security.web.access.ExceptionTranslationFilter@7567b848, org.springframework.security.web.access.intercept.AuthorizationFilter@3f88d1f8]
+2023-03-27T14:30:32.346+03:00  INFO 4140 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-03-27T14:30:32.371+03:00  INFO 4140 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-27T14:30:32.380+03:00  INFO 4140 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : Started TacoCloudApplication in 1.649 seconds (process running for 2.074)
+2023-03-27T14:30:40.223+03:00  INFO 4140 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-27T14:30:40.224+03:00  INFO 4140 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-27T14:30:40.225+03:00  INFO 4140 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-27T14:36:58.311+03:00  INFO 4140 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 23 class path changes (0 additions, 22 deletions, 1 modification)
+2023-03-27T14:36:58.319+03:00  INFO 4140 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-27T14:36:58.320+03:00  INFO 4140 --- [Thread-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-27T14:36:58.387+03:00  INFO 4140 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : Starting TacoCloudApplication using Java 18.0.1.1 with PID 4140 (C:\projects\taco-cloud\target\classes started by yo114 in C:\projects\taco-cloud)
+2023-03-27T14:36:58.388+03:00  INFO 4140 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-03-27T14:36:58.526+03:00  INFO 4140 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-27T14:36:58.527+03:00  INFO 4140 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-27T14:36:58.527+03:00  INFO 4140 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-27T14:36:58.545+03:00  INFO 4140 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-27T14:36:58.545+03:00  INFO 4140 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 156 ms
+2023-03-27T14:36:58.596+03:00  WARN 4140 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: d8fd1126-b544-471d-a5b4-09dc0ecfc930
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-03-27T14:36:58.603+03:00  INFO 4140 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3cc5aa87, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1178eca0, org.springframework.security.web.context.SecurityContextHolderFilter@5c999f35, org.springframework.security.web.header.HeaderWriterFilter@50c07e4a, org.springframework.security.web.csrf.CsrfFilter@6c967051, org.springframework.security.web.authentication.logout.LogoutFilter@789799e7, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@718d158b, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@7a462fdd, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@2d5e4e09, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@e491503, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@352780f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2927369d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6b79b7ac, org.springframework.security.web.access.ExceptionTranslationFilter@8944979, org.springframework.security.web.access.intercept.AuthorizationFilter@728efb2d]
+2023-03-27T14:36:58.609+03:00  INFO 4140 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-03-27T14:36:58.614+03:00  INFO 4140 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-27T14:36:58.617+03:00  INFO 4140 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : Started TacoCloudApplication in 0.253 seconds (process running for 388.313)
+2023-03-27T14:36:58.620+03:00  INFO 4140 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   SpringBootWebSecurityConfiguration.SecurityFilterChainConfiguration matched:
+      - AllNestedConditions 2 matched 0 did not; NestedCondition on DefaultWebSecurityCondition.Beans @ConditionalOnMissingBean (types: org.springframework.security.web.SecurityFilterChain; SearchStrategy: all) did not find any beans; NestedCondition on DefaultWebSecurityCondition.Classes @ConditionalOnClass found required classes 'org.springframework.security.web.SecurityFilterChain', 'org.springframework.security.config.annotation.web.builders.HttpSecurity' (DefaultWebSecurityCondition)
+
+   UserDetailsServiceAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.security.authentication.AuthenticationManager' (OnClassCondition)
+      - @ConditionalOnBean (types: org.springframework.security.config.annotation.ObjectPostProcessor; SearchStrategy: all) found bean 'objectPostProcessor'; @ConditionalOnMissingBean (types: org.springframework.security.authentication.AuthenticationManager,org.springframework.security.authentication.AuthenticationProvider,org.springframework.security.core.userdetails.UserDetailsService,org.springframework.security.authentication.AuthenticationManagerResolver,org.springframework.security.oauth2.jwt.JwtDecoder,org.springframework.security.oauth2.server.resource.introspection.OpaqueTokenIntrospector,org.springframework.security.oauth2.client.registration.ClientRegistrationRepository,org.springframework.security.saml2.provider.service.registration.RelyingPartyRegistrationRepository; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+   DataSourceInitializationConfiguration:
+      Did not match:
+         - @ConditionalOnSingleCandidate (types: javax.sql.DataSource; SearchStrategy: all) did not find any beans (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.jdbc.datasource.init.DatabasePopulator' (OnClassCondition)
+
+   DataSourceTransactionManagerAutoConfiguration.JdbcTransactionManagerConfiguration:
+      Did not match:
+         - @ConditionalOnSingleCandidate (types: javax.sql.DataSource; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JdbcRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnBean (types: org.springframework.jdbc.core.namedparam.NamedParameterJdbcOperations,org.springframework.transaction.PlatformTransactionManager; SearchStrategy: all) did not find any beans of type org.springframework.jdbc.core.namedparam.NamedParameterJdbcOperations, org.springframework.transaction.PlatformTransactionManager (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required classes 'org.springframework.jdbc.core.namedparam.NamedParameterJdbcOperations', 'org.springframework.data.jdbc.repository.config.AbstractJdbcConfiguration' (OnClassCondition)
+         - @ConditionalOnProperty (spring.data.jdbc.repositories.enabled=true) matched (OnPropertyCondition)
+
+   JdbcTemplateAutoConfiguration:
+      Did not match:
+         - @ConditionalOnSingleCandidate (types: javax.sql.DataSource; SearchStrategy: all) did not find any beans (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required classes 'javax.sql.DataSource', 'org.springframework.jdbc.core.JdbcTemplate' (OnClassCondition)
+
+   TransactionAutoConfiguration.EnableTransactionManagementConfiguration:
+      Did not match:
+         - @ConditionalOnBean (types: org.springframework.transaction.TransactionManager; SearchStrategy: all) did not find any beans of type org.springframework.transaction.TransactionManager (OnBeanCondition)
+
+   TransactionAutoConfiguration.EnableTransactionManagementConfiguration.CglibAutoProxyConfiguration:
+      Did not match:
+         - Ancestor org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration$EnableTransactionManagementConfiguration did not match (ConditionEvaluationReport.AncestorsMatchedCondition)
+      Matched:
+         - @ConditionalOnProperty (spring.aop.proxy-target-class=true) matched (OnPropertyCondition)
+
+   TransactionAutoConfiguration.TransactionTemplateConfiguration:
+      Did not match:
+         - @ConditionalOnSingleCandidate (types: org.springframework.transaction.PlatformTransactionManager; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2023-03-27T14:37:00.468+03:00  INFO 4140 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 22 class path changes (22 additions, 0 deletions, 0 modifications)
+2023-03-27T14:37:00.473+03:00  INFO 4140 --- [Thread-7] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-27T14:37:00.533+03:00  INFO 4140 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : Starting TacoCloudApplication using Java 18.0.1.1 with PID 4140 (C:\projects\taco-cloud\target\classes started by yo114 in C:\projects\taco-cloud)
+2023-03-27T14:37:00.533+03:00  INFO 4140 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-03-27T14:37:00.639+03:00  INFO 4140 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-03-27T14:37:00.642+03:00  INFO 4140 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JDBC repository interfaces.
+2023-03-27T14:37:00.694+03:00  INFO 4140 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-27T14:37:00.695+03:00  INFO 4140 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-27T14:37:00.695+03:00  INFO 4140 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-27T14:37:00.711+03:00  INFO 4140 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-27T14:37:00.711+03:00  INFO 4140 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 177 ms
+2023-03-27T14:37:00.861+03:00  INFO 4140 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@689837cf, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3d6dbf3f, org.springframework.security.web.context.SecurityContextHolderFilter@334705a2, org.springframework.security.web.header.HeaderWriterFilter@7e6f43c7, org.springframework.security.web.authentication.logout.LogoutFilter@61c48e3f, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2d68f12b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6b6179f8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6ed0fbba, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@20014ae7, org.springframework.security.web.access.ExceptionTranslationFilter@41288385, org.springframework.security.web.access.intercept.AuthorizationFilter@686ea3e6]
+2023-03-27T14:37:00.906+03:00  INFO 4140 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-03-27T14:37:00.914+03:00  INFO 4140 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-27T14:37:00.916+03:00  INFO 4140 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : Started TacoCloudApplication in 0.401 seconds (process running for 390.611)
+2023-03-27T14:37:00.918+03:00  INFO 4140 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   DataSourceInitializationConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.jdbc.datasource.init.DatabasePopulator' (OnClassCondition)
+      - @ConditionalOnSingleCandidate (types: javax.sql.DataSource; SearchStrategy: all) found a single bean 'datasource'; @ConditionalOnMissingBean (types: org.springframework.boot.autoconfigure.sql.init.SqlDataSourceScriptDatabaseInitializer,org.springframework.boot.autoconfigure.sql.init.SqlR2dbcScriptDatabaseInitializer; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   DataSourceTransactionManagerAutoConfiguration.JdbcTransactionManagerConfiguration matched:
+      - @ConditionalOnSingleCandidate (types: javax.sql.DataSource; SearchStrategy: all) found a single bean 'datasource' (OnBeanCondition)
+
+   DataSourceTransactionManagerAutoConfiguration.JdbcTransactionManagerConfiguration#transactionManager matched:
+      - @ConditionalOnMissingBean (types: org.springframework.transaction.TransactionManager; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JdbcRepositoriesAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'org.springframework.jdbc.core.namedparam.NamedParameterJdbcOperations', 'org.springframework.data.jdbc.repository.config.AbstractJdbcConfiguration' (OnClassCondition)
+      - @ConditionalOnProperty (spring.data.jdbc.repositories.enabled=true) matched (OnPropertyCondition)
+      - @ConditionalOnBean (types: org.springframework.jdbc.core.namedparam.NamedParameterJdbcOperations,org.springframework.transaction.PlatformTransactionManager; SearchStrategy: all) found beans 'transactionManager', 'namedParameterJdbcTemplate' (OnBeanCondition)
+
+   JdbcRepositoriesAutoConfiguration.JdbcRepositoriesConfiguration matched:
+      - @ConditionalOnMissingBean (types: org.springframework.data.jdbc.repository.config.JdbcRepositoryConfigExtension; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JdbcRepositoriesAutoConfiguration.SpringBootJdbcConfiguration matched:
+      - @ConditionalOnMissingBean (types: org.springframework.data.jdbc.repository.config.AbstractJdbcConfiguration; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JdbcRepositoriesAutoConfiguration.SpringBootJdbcConfiguration#dataAccessStrategyBean matched:
+      - @ConditionalOnMissingBean (types: org.springframework.data.jdbc.core.convert.DataAccessStrategy; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JdbcRepositoriesAutoConfiguration.SpringBootJdbcConfiguration#jdbcAggregateTemplate matched:
+      - @ConditionalOnMissingBean (types: org.springframework.data.jdbc.core.JdbcAggregateTemplate; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JdbcRepositoriesAutoConfiguration.SpringBootJdbcConfiguration#jdbcConverter matched:
+      - @ConditionalOnMissingBean (types: org.springframework.data.jdbc.core.convert.JdbcConverter; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JdbcRepositoriesAutoConfiguration.SpringBootJdbcConfiguration#jdbcCustomConversions matched:
+      - @ConditionalOnMissingBean (types: org.springframework.data.jdbc.core.convert.JdbcCustomConversions; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JdbcRepositoriesAutoConfiguration.SpringBootJdbcConfiguration#jdbcDialect matched:
+      - @ConditionalOnMissingBean (types: org.springframework.data.relational.core.dialect.Dialect; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JdbcRepositoriesAutoConfiguration.SpringBootJdbcConfiguration#jdbcManagedTypes matched:
+      - @ConditionalOnMissingBean (types: org.springframework.data.relational.RelationalManagedTypes; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JdbcRepositoriesAutoConfiguration.SpringBootJdbcConfiguration#jdbcMappingContext matched:
+      - @ConditionalOnMissingBean (types: org.springframework.data.jdbc.core.mapping.JdbcMappingContext; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JdbcTemplateAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'javax.sql.DataSource', 'org.springframework.jdbc.core.JdbcTemplate' (OnClassCondition)
+      - @ConditionalOnSingleCandidate (types: javax.sql.DataSource; SearchStrategy: all) found a single bean 'datasource' (OnBeanCondition)
+
+   NamedParameterJdbcTemplateConfiguration matched:
+      - @ConditionalOnSingleCandidate (types: org.springframework.jdbc.core.JdbcTemplate; SearchStrategy: all) found a single bean 'jdbcTemplate'; @ConditionalOnMissingBean (types: org.springframework.jdbc.core.namedparam.NamedParameterJdbcOperations; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   TransactionAutoConfiguration.EnableTransactionManagementConfiguration matched:
+      - @ConditionalOnBean (types: org.springframework.transaction.TransactionManager; SearchStrategy: all) found bean 'transactionManager'; @ConditionalOnMissingBean (types: org.springframework.transaction.annotation.AbstractTransactionManagementConfiguration; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   TransactionAutoConfiguration.EnableTransactionManagementConfiguration.CglibAutoProxyConfiguration matched:
+      - @ConditionalOnProperty (spring.aop.proxy-target-class=true) matched (OnPropertyCondition)
+
+   TransactionAutoConfiguration.TransactionTemplateConfiguration matched:
+      - @ConditionalOnSingleCandidate (types: org.springframework.transaction.PlatformTransactionManager; SearchStrategy: all) found a single bean 'transactionManager' (OnBeanCondition)
+
+   TransactionAutoConfiguration.TransactionTemplateConfiguration#transactionTemplate matched:
+      - @ConditionalOnMissingBean (types: org.springframework.transaction.support.TransactionOperations; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+   JdbcTemplateConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.jdbc.core.JdbcOperations; SearchStrategy: all) found beans of type 'org.springframework.jdbc.core.JdbcOperations' jdbcTemplate (OnBeanCondition)
+
+   SpringBootWebSecurityConfiguration.SecurityFilterChainConfiguration:
+      Did not match:
+         - AllNestedConditions 1 matched 1 did not; NestedCondition on DefaultWebSecurityCondition.Beans @ConditionalOnMissingBean (types: org.springframework.security.web.SecurityFilterChain; SearchStrategy: all) found beans of type 'org.springframework.security.web.SecurityFilterChain' filterChain; NestedCondition on DefaultWebSecurityCondition.Classes @ConditionalOnClass found required classes 'org.springframework.security.web.SecurityFilterChain', 'org.springframework.security.config.annotation.web.builders.HttpSecurity' (DefaultWebSecurityCondition)
+
+   UserDetailsServiceAutoConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.security.authentication.AuthenticationManager,org.springframework.security.authentication.AuthenticationProvider,org.springframework.security.core.userdetails.UserDetailsService,org.springframework.security.authentication.AuthenticationManagerResolver,org.springframework.security.oauth2.jwt.JwtDecoder,org.springframework.security.oauth2.server.resource.introspection.OpaqueTokenIntrospector,org.springframework.security.oauth2.client.registration.ClientRegistrationRepository,org.springframework.security.saml2.provider.service.registration.RelyingPartyRegistrationRepository; SearchStrategy: all) found beans of type 'org.springframework.security.core.userdetails.UserDetailsService' userDetailsService (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.security.authentication.AuthenticationManager' (OnClassCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2023-03-27T14:37:20.526+03:00  INFO 5868 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : Starting TacoCloudApplication using Java 18.0.1.1 with PID 5868 (C:\projects\taco-cloud\target\classes started by yo114 in C:\projects\taco-cloud)
+2023-03-27T14:37:20.528+03:00  INFO 5868 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-03-27T14:37:20.558+03:00  INFO 5868 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-27T14:37:20.558+03:00  INFO 5868 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-27T14:37:20.925+03:00  INFO 5868 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-03-27T14:37:20.938+03:00  INFO 5868 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 JDBC repository interfaces.
+2023-03-27T14:37:21.257+03:00  INFO 5868 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-27T14:37:21.263+03:00  INFO 5868 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-27T14:37:21.263+03:00  INFO 5868 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-27T14:37:21.303+03:00  INFO 5868 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-27T14:37:21.303+03:00  INFO 5868 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 744 ms
+2023-03-27T14:37:21.714+03:00  INFO 5868 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7a8cd7, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5108398a, org.springframework.security.web.context.SecurityContextHolderFilter@27000b64, org.springframework.security.web.header.HeaderWriterFilter@6129ab39, org.springframework.security.web.authentication.logout.LogoutFilter@4ae74703, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3f88d1f8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5c31683, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6aecc87, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4ef50459, org.springframework.security.web.access.ExceptionTranslationFilter@50dce7f4, org.springframework.security.web.access.intercept.AuthorizationFilter@553be35a]
+2023-03-27T14:37:21.888+03:00  INFO 5868 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-03-27T14:37:21.910+03:00  INFO 5868 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-27T14:37:21.917+03:00  INFO 5868 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : Started TacoCloudApplication in 1.652 seconds (process running for 2.231)
+2023-03-27T14:37:26.602+03:00  INFO 5868 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-27T14:37:26.603+03:00  INFO 5868 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-27T14:37:26.604+03:00  INFO 5868 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-03-27T14:40:41.520+03:00  INFO 14560 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : Starting TacoCloudApplication using Java 18.0.1.1 with PID 14560 (C:\projects\taco-cloud\target\classes started by yo114 in C:\projects\taco-cloud)
+2023-03-27T14:40:41.521+03:00  INFO 14560 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-03-27T14:40:41.551+03:00  INFO 14560 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-27T14:40:41.551+03:00  INFO 14560 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-27T14:40:41.931+03:00  INFO 14560 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-03-27T14:40:41.944+03:00  INFO 14560 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 JDBC repository interfaces.
+2023-03-27T14:40:42.273+03:00  INFO 14560 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-27T14:40:42.279+03:00  INFO 14560 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-27T14:40:42.279+03:00  INFO 14560 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-27T14:40:42.320+03:00  INFO 14560 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-27T14:40:42.321+03:00  INFO 14560 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 769 ms
+2023-03-27T14:40:42.822+03:00  INFO 14560 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4f3e5a05, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@677d898e, org.springframework.security.web.context.SecurityContextHolderFilter@5501e6d, org.springframework.security.web.header.HeaderWriterFilter@752c30eb, org.springframework.security.web.authentication.logout.LogoutFilter@4fec8f1d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4d596979, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2f211d8b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@47556a4e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4240557e, org.springframework.security.web.access.ExceptionTranslationFilter@7156515a, org.springframework.security.web.access.intercept.AuthorizationFilter@1d6680d1]
+2023-03-27T14:40:43.040+03:00  INFO 14560 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-03-27T14:40:43.064+03:00  INFO 14560 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-27T14:40:43.071+03:00  INFO 14560 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : Started TacoCloudApplication in 1.825 seconds (process running for 2.307)
+2023-03-27T14:40:46.244+03:00  INFO 14560 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-27T14:40:46.245+03:00  INFO 14560 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-27T14:40:46.248+03:00  INFO 14560 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2023-03-27T14:45:07.119+03:00  INFO 14632 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : Starting TacoCloudApplication using Java 18.0.1.1 with PID 14632 (C:\projects\taco-cloud\target\classes started by yo114 in C:\projects\taco-cloud)
+2023-03-27T14:45:07.120+03:00  INFO 14632 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-03-27T14:45:07.152+03:00  INFO 14632 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-27T14:45:07.153+03:00  INFO 14632 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-27T14:45:07.508+03:00  INFO 14632 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-03-27T14:45:07.520+03:00  INFO 14632 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 JDBC repository interfaces.
+2023-03-27T14:45:07.852+03:00  INFO 14632 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-27T14:45:07.857+03:00  INFO 14632 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-27T14:45:07.857+03:00  INFO 14632 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-27T14:45:07.898+03:00  INFO 14632 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-27T14:45:07.898+03:00  INFO 14632 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 745 ms
+2023-03-27T14:45:08.310+03:00  INFO 14632 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@20f14b04, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5f733f86, org.springframework.security.web.context.SecurityContextHolderFilter@476fdac4, org.springframework.security.web.header.HeaderWriterFilter@6d1b0a6e, org.springframework.security.web.authentication.logout.LogoutFilter@ccf6aaf, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@629dc076, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@47bd1f40, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7669fdd8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1eed5d0b, org.springframework.security.web.access.ExceptionTranslationFilter@3f037b7f, org.springframework.security.web.access.intercept.AuthorizationFilter@512e4fd4]
+2023-03-27T14:45:08.481+03:00  INFO 14632 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-03-27T14:45:08.503+03:00  INFO 14632 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-27T14:45:08.511+03:00  INFO 14632 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : Started TacoCloudApplication in 1.647 seconds (process running for 2.066)
+2023-03-27T14:45:14.717+03:00  INFO 14632 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-27T14:45:14.718+03:00  INFO 14632 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-27T14:45:14.719+03:00  INFO 14632 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms

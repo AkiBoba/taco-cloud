@@ -31,6 +31,23 @@ create table if not exists Ingredient_Ref (
   taco_key bigint not null
 );
 
+create table if not exists user (
+  id serial primary key,
+  user_name text NOT NULL,
+	user_password text NOT NULL,
+	full_name text NOT NULL,
+	street text NOT NULL,
+	city text NOT NULL,
+	user_state text NOT NULL,
+	zip text NOT NULL,
+	phone_number text NOT NULL
+);
+
+create table if not exists user_order (
+  user_id bigint,
+  order_id bigint
+);
+
 alter table Taco
     add foreign key (taco_order) references Taco_Order(id);
 
