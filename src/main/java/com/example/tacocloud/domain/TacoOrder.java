@@ -10,6 +10,7 @@ import jakarta.validation.constraints.Digits;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Pattern;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import org.hibernate.validator.constraints.CreditCardNumber;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.relational.core.mapping.Table;
@@ -19,6 +20,7 @@ import org.springframework.data.relational.core.mapping.Table;
  * Класс содержит поля идентифицирующие характеристики заказа клиента
  */
 @Data
+@NoArgsConstructor
 public class TacoOrder {
     private static final long serialVersionUID = 1L;
     @Id
@@ -43,6 +45,11 @@ public class TacoOrder {
     private String ccCVV;
     private List<Taco> tacos = new ArrayList<>();
     private User user;
+
+    public TacoOrder(Long id, Date placedAt) {
+        this.id = id;
+        this.placedAt = placedAt;
+    }
 
     public void addTaco(@Valid Taco taco) {
         tacos.add(taco);

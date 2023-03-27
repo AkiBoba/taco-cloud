@@ -21,6 +21,7 @@ public class JdbcOrderRepository implements OrderRepository {
     private static final String insert_into_Taco = "insert into taco (name, created_at, taco_order, taco_order_key) values (?, ?, ?, ?)";
     private static final String insert_into_Ingredient_Ref = "insert into Ingredient_Ref (ingredient, taco, taco_key) values (?, ?, ?)";
     private static final String insert_into_user_order = "insert into user_order (user_id, order_id) values (?, ?)";
+    private static final String find_user_orders = "SELECT uo.user_id as user_id, o.id as order_id, o.placed_at as placed_at FROM user_order as uo JOIN taco_order AS o ON o.id = uo.order_id where uo.user_id = ? ORDER by o.placed_at DESC LIMIT ?";
     private JdbcTemplate template;
 
     public JdbcOrderRepository(JdbcTemplate template) {
@@ -85,5 +86,14 @@ public class JdbcOrderRepository implements OrderRepository {
             template.update(insert_into_Ingredient_Ref,
                 ingredient.getId(), tacoId, key++);
         }
+    }
+
+    @Override
+    public List<TacoOrder> findByUserOrders(User user, Integer pageSize) {
+        return template.query(find_user_orders,
+                (rs, num) -> new TacoOrder(rs.getLong("order_id"),
+                        rs.getTimestamp("placed_at")),
+                user.getId(),
+                pageSize);
     }
 }

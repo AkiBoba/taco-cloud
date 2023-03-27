@@ -1,0 +1,13 @@
+{
+  "properties": [
+    {
+      "name": "excel.example",
+      "type": "java.lang.String",
+      "description": "Description for excel.example."
+    },
+    {
+      "name": "taco.orders.pageSize",
+      "type": "java.lang.Integer",
+      "description": "A description for ‘taco.orders.page-size’."
+    }
+  ] }
