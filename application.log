@@ -1,42 +1,118 @@
-2023-03-27T14:30:30.992+03:00  INFO 4140 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : Starting TacoCloudApplication using Java 18.0.1.1 with PID 4140 (C:\projects\taco-cloud\target\classes started by yo114 in C:\projects\taco-cloud)
-2023-03-27T14:30:30.993+03:00  INFO 4140 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : No active profile set, falling back to 1 default profile: "default"
-2023-03-27T14:30:31.024+03:00  INFO 4140 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2023-03-27T14:30:31.024+03:00  INFO 4140 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2023-03-27T14:30:31.372+03:00  INFO 4140 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2023-03-27T14:30:31.384+03:00  INFO 4140 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 JDBC repository interfaces.
-2023-03-27T14:30:31.705+03:00  INFO 4140 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2023-03-27T14:30:31.711+03:00  INFO 4140 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-03-27T14:30:31.711+03:00  INFO 4140 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
-2023-03-27T14:30:31.751+03:00  INFO 4140 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-03-27T14:30:31.751+03:00  INFO 4140 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 726 ms
-2023-03-27T14:30:32.164+03:00  INFO 4140 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5108398a, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4ef50459, org.springframework.security.web.context.SecurityContextHolderFilter@bdc0cde, org.springframework.security.web.header.HeaderWriterFilter@29c4eaac, org.springframework.security.web.authentication.logout.LogoutFilter@7bea75f0, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@104b88d0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@57e984f0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1dfb06a6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@ceaf558, org.springframework.security.web.access.ExceptionTranslationFilter@7567b848, org.springframework.security.web.access.intercept.AuthorizationFilter@3f88d1f8]
-2023-03-27T14:30:32.346+03:00  INFO 4140 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2023-03-27T14:30:32.371+03:00  INFO 4140 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2023-03-27T14:30:32.380+03:00  INFO 4140 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : Started TacoCloudApplication in 1.649 seconds (process running for 2.074)
-2023-03-27T14:30:40.223+03:00  INFO 4140 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-03-27T14:30:40.224+03:00  INFO 4140 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2023-03-27T14:30:40.225+03:00  INFO 4140 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2023-03-27T14:36:58.311+03:00  INFO 4140 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 23 class path changes (0 additions, 22 deletions, 1 modification)
-2023-03-27T14:36:58.319+03:00  INFO 4140 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2023-03-27T14:36:58.320+03:00  INFO 4140 --- [Thread-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
-2023-03-27T14:36:58.387+03:00  INFO 4140 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : Starting TacoCloudApplication using Java 18.0.1.1 with PID 4140 (C:\projects\taco-cloud\target\classes started by yo114 in C:\projects\taco-cloud)
-2023-03-27T14:36:58.388+03:00  INFO 4140 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : No active profile set, falling back to 1 default profile: "default"
-2023-03-27T14:36:58.526+03:00  INFO 4140 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2023-03-27T14:36:58.527+03:00  INFO 4140 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-03-27T14:36:58.527+03:00  INFO 4140 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
-2023-03-27T14:36:58.545+03:00  INFO 4140 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-03-27T14:36:58.545+03:00  INFO 4140 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 156 ms
-2023-03-27T14:36:58.596+03:00  WARN 4140 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+2023-04-03T21:05:44.157+03:00  INFO 18924 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : Starting TacoCloudApplication using Java 17 with PID 18924 (C:\projects\taco-cloud\target\classes started by lette in C:\projects\taco-cloud)
+2023-04-03T21:05:44.179+03:00  INFO 18924 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-04-03T21:05:44.301+03:00  INFO 18924 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-03T21:05:44.302+03:00  INFO 18924 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-03T21:05:45.802+03:00  INFO 18924 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-04-03T21:05:45.837+03:00  INFO 18924 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 0 JDBC repository interfaces.
+2023-04-03T21:05:46.848+03:00  INFO 18924 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2023-04-03T21:05:46.862+03:00  INFO 18924 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-03T21:05:46.863+03:00  INFO 18924 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-04-03T21:05:46.957+03:00  INFO 18924 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-03T21:05:46.958+03:00  INFO 18924 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2655 ms
+2023-04-03T21:05:48.266+03:00  INFO 18924 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5e57c8e1, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@df40fa, org.springframework.security.web.context.SecurityContextHolderFilter@34cd90e0, org.springframework.security.web.header.HeaderWriterFilter@816fc34, org.springframework.security.web.authentication.logout.LogoutFilter@581c62ac, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@bb4b086, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2b1edd31, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@43ca8d45, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@c34d302, org.springframework.security.web.access.ExceptionTranslationFilter@509d3b12, org.springframework.security.web.access.intercept.AuthorizationFilter@116d4de1]
+2023-04-03T21:05:48.723+03:00  INFO 18924 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-03T21:05:48.779+03:00  INFO 18924 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2023-04-03T21:05:48.815+03:00  INFO 18924 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : Started TacoCloudApplication in 5.761 seconds (process running for 14.839)
+2023-04-03T21:05:52.058+03:00  INFO 18924 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-03T21:05:52.059+03:00  INFO 18924 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-03T21:05:52.061+03:00  INFO 18924 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-04-03T21:06:08.525+03:00  INFO 18924 --- [http-nio-8082-exec-6] c.e.tacocloud.web.DesignTacoController   : showDesignForm
+2023-04-03T21:06:17.355+03:00  INFO 18924 --- [http-nio-8082-exec-3] c.e.tacocloud.web.RestTacoController     : Processing taco: Taco(id=null, createdAt=Mon Apr 03 21:06:17 MSK 2023, name=Junior Java Job2, ingredients=[Ingredient(id=FLTO, name=null, type=WRAP), Ingredient(id=GRBF, name=null, type=PROTEIN), Ingredient(id=TMTO, name=null, type=VEGGIES), Ingredient(id=CHED, name=null, type=CHEESE), Ingredient(id=SLSA, name=null, type=SAUCE)])
+2023-04-03T21:06:21.974+03:00  INFO 18924 --- [http-nio-8082-exec-8] c.e.tacocloud.web.DesignTacoController   : Go to current order
+2023-04-03T21:06:28.490+03:00  INFO 18924 --- [http-nio-8082-exec-7] c.example.tacocloud.web.OrderController  : Order submitted: TacoOrder(id=null, placedAt=null, deliveryName=Vova, deliveryStreet=Спортивная, deliveryCity=Подольск, deliveryState=МО, deliveryZip=142143, ccNumber=2202203260502846, ccExpiration=11/23, ccCVV=123, tacos=[Taco(id=null, createdAt=Mon Apr 03 21:06:17 MSK 2023, name=Junior Java Job2, ingredients=[Ingredient(id=FLTO, name=null, type=WRAP), Ingredient(id=GRBF, name=null, type=PROTEIN), Ingredient(id=TMTO, name=null, type=VEGGIES), Ingredient(id=CHED, name=null, type=CHEESE), Ingredient(id=SLSA, name=null, type=SAUCE)])], user=null)
+2023-04-03T21:06:28.596+03:00  INFO 18924 --- [http-nio-8082-exec-7] c.example.tacocloud.web.OrderController  : Order saved: TacoOrder(id=4, placedAt=Mon Apr 03 21:06:28 MSK 2023, deliveryName=Vova, deliveryStreet=Спортивная, deliveryCity=Подольск, deliveryState=МО, deliveryZip=142143, ccNumber=2202203260502846, ccExpiration=11/23, ccCVV=123, tacos=[Taco(id=4, createdAt=Mon Apr 03 21:06:17 MSK 2023, name=Junior Java Job2, ingredients=[Ingredient(id=FLTO, name=null, type=WRAP), Ingredient(id=GRBF, name=null, type=PROTEIN), Ingredient(id=TMTO, name=null, type=VEGGIES), Ingredient(id=CHED, name=null, type=CHEESE), Ingredient(id=SLSA, name=null, type=SAUCE)])], user=null)
+2023-04-03T21:26:40.779+03:00  INFO 18924 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 25 class path changes (0 additions, 24 deletions, 1 modification)
+2023-04-03T21:26:40.989+03:00  INFO 18924 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-03T21:26:41.015+03:00  INFO 18924 --- [Thread-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-04-03T21:26:41.954+03:00  INFO 18924 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : Starting TacoCloudApplication using Java 17 with PID 18924 (C:\projects\taco-cloud\target\classes started by lette in C:\projects\taco-cloud)
+2023-04-03T21:26:41.956+03:00  INFO 18924 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-04-03T21:26:43.678+03:00  INFO 18924 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2023-04-03T21:26:43.680+03:00  INFO 18924 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-03T21:26:43.681+03:00  INFO 18924 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-04-03T21:26:43.854+03:00  INFO 18924 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-03T21:26:43.855+03:00  INFO 18924 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1863 ms
+2023-04-03T21:26:43.963+03:00 ERROR 18924 --- [restartedMain] o.a.catalina.session.StandardManager     : Exception loading sessions from persistent storage
 
-Using generated security password: d8fd1126-b544-471d-a5b4-09dc0ecfc930
+java.lang.ClassNotFoundException: com.example.tacocloud.domain.User
+	at org.springframework.boot.web.embedded.tomcat.TomcatEmbeddedWebappClassLoader.loadClass(TomcatEmbeddedWebappClassLoader.java:72) ~[spring-boot-3.0.3.jar:3.0.3]
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1245) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at java.base/java.lang.Class.forName0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:467) ~[na:na]
+	at org.apache.catalina.util.CustomObjectInputStream.resolveClass(CustomObjectInputStream.java:158) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at java.base/java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:2043) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1907) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2209) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1742) ~[na:na]
+	at java.base/java.io.ObjectInputStream$FieldValues.<init>(ObjectInputStream.java:2584) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2442) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2242) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1742) ~[na:na]
+	at java.base/java.io.ObjectInputStream$FieldValues.<init>(ObjectInputStream.java:2584) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2442) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2242) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1742) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:514) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:472) ~[na:na]
+	at org.apache.catalina.session.StandardSession.doReadObject(StandardSession.java:1505) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.catalina.session.StandardSession.readObjectData(StandardSession.java:1033) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.catalina.session.StandardManager.doLoad(StandardManager.java:219) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.catalina.session.StandardManager.load(StandardManager.java:162) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.catalina.session.StandardManager.startInternal(StandardManager.java:356) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5172) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1393) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1383) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145) ~[na:na]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:916) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:886) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1393) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1383) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145) ~[na:na]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:916) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:252) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:430) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:926) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:485) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:123) ~[spring-boot-3.0.3.jar:3.0.3]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:104) ~[spring-boot-3.0.3.jar:3.0.3]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:488) ~[spring-boot-3.0.3.jar:3.0.3]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:210) ~[spring-boot-3.0.3.jar:3.0.3]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:183) ~[spring-boot-3.0.3.jar:3.0.3]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:161) ~[spring-boot-3.0.3.jar:3.0.3]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:578) ~[spring-context-6.0.5.jar:6.0.5]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.0.3.jar:3.0.3]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732) ~[spring-boot-3.0.3.jar:3.0.3]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434) ~[spring-boot-3.0.3.jar:3.0.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:310) ~[spring-boot-3.0.3.jar:3.0.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1304) ~[spring-boot-3.0.3.jar:3.0.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1293) ~[spring-boot-3.0.3.jar:3.0.3]
+	at com.example.tacocloud.TacoCloudApplication.main(TacoCloudApplication.java:13) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-3.0.3.jar:3.0.3]
+
+2023-04-03T21:26:47.244+03:00  WARN 18924 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 8a4e8028-5922-4ff8-a7c0-5582dea32a2e
 
 This generated password is for development use only. Your security configuration must be updated before running your application in production.
 
-2023-03-27T14:36:58.603+03:00  INFO 4140 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3cc5aa87, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1178eca0, org.springframework.security.web.context.SecurityContextHolderFilter@5c999f35, org.springframework.security.web.header.HeaderWriterFilter@50c07e4a, org.springframework.security.web.csrf.CsrfFilter@6c967051, org.springframework.security.web.authentication.logout.LogoutFilter@789799e7, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@718d158b, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@7a462fdd, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@2d5e4e09, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@e491503, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@352780f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2927369d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6b79b7ac, org.springframework.security.web.access.ExceptionTranslationFilter@8944979, org.springframework.security.web.access.intercept.AuthorizationFilter@728efb2d]
-2023-03-27T14:36:58.609+03:00  INFO 4140 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2023-03-27T14:36:58.614+03:00  INFO 4140 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2023-03-27T14:36:58.617+03:00  INFO 4140 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : Started TacoCloudApplication in 0.253 seconds (process running for 388.313)
-2023-03-27T14:36:58.620+03:00  INFO 4140 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+2023-04-03T21:26:47.451+03:00  INFO 18924 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4bd9de00, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3fbd74af, org.springframework.security.web.context.SecurityContextHolderFilter@739e10c7, org.springframework.security.web.header.HeaderWriterFilter@101be3ae, org.springframework.security.web.csrf.CsrfFilter@33352e86, org.springframework.security.web.authentication.logout.LogoutFilter@399403b8, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3732b43f, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@42f03f0f, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@1dbe5f4a, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@24d0c870, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6945412c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@db9ab85, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3f0f97c5, org.springframework.security.web.access.ExceptionTranslationFilter@78e39f6e, org.springframework.security.web.access.intercept.AuthorizationFilter@e893003]
+2023-04-03T21:26:47.835+03:00  INFO 18924 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-03T21:26:47.865+03:00  INFO 18924 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2023-04-03T21:26:47.876+03:00  INFO 18924 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : Started TacoCloudApplication in 6.299 seconds (process running for 1273.899)
+2023-04-03T21:26:47.887+03:00  INFO 18924 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
 
 
 ==========================
@@ -109,22 +185,22 @@ Unconditional classes:
 
 
 
-2023-03-27T14:37:00.468+03:00  INFO 4140 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 22 class path changes (22 additions, 0 deletions, 0 modifications)
-2023-03-27T14:37:00.473+03:00  INFO 4140 --- [Thread-7] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2023-03-27T14:37:00.533+03:00  INFO 4140 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : Starting TacoCloudApplication using Java 18.0.1.1 with PID 4140 (C:\projects\taco-cloud\target\classes started by yo114 in C:\projects\taco-cloud)
-2023-03-27T14:37:00.533+03:00  INFO 4140 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : No active profile set, falling back to 1 default profile: "default"
-2023-03-27T14:37:00.639+03:00  INFO 4140 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2023-03-27T14:37:00.642+03:00  INFO 4140 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JDBC repository interfaces.
-2023-03-27T14:37:00.694+03:00  INFO 4140 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2023-03-27T14:37:00.695+03:00  INFO 4140 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-03-27T14:37:00.695+03:00  INFO 4140 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
-2023-03-27T14:37:00.711+03:00  INFO 4140 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-03-27T14:37:00.711+03:00  INFO 4140 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 177 ms
-2023-03-27T14:37:00.861+03:00  INFO 4140 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@689837cf, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3d6dbf3f, org.springframework.security.web.context.SecurityContextHolderFilter@334705a2, org.springframework.security.web.header.HeaderWriterFilter@7e6f43c7, org.springframework.security.web.authentication.logout.LogoutFilter@61c48e3f, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2d68f12b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6b6179f8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6ed0fbba, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@20014ae7, org.springframework.security.web.access.ExceptionTranslationFilter@41288385, org.springframework.security.web.access.intercept.AuthorizationFilter@686ea3e6]
-2023-03-27T14:37:00.906+03:00  INFO 4140 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2023-03-27T14:37:00.914+03:00  INFO 4140 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2023-03-27T14:37:00.916+03:00  INFO 4140 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : Started TacoCloudApplication in 0.401 seconds (process running for 390.611)
-2023-03-27T14:37:00.918+03:00  INFO 4140 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+2023-04-03T21:26:52.942+03:00  INFO 18924 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 24 class path changes (24 additions, 0 deletions, 0 modifications)
+2023-04-03T21:26:52.977+03:00  INFO 18924 --- [Thread-7] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-03T21:26:53.141+03:00  INFO 18924 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : Starting TacoCloudApplication using Java 17 with PID 18924 (C:\projects\taco-cloud\target\classes started by lette in C:\projects\taco-cloud)
+2023-04-03T21:26:53.141+03:00  INFO 18924 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-04-03T21:26:53.694+03:00  INFO 18924 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-04-03T21:26:53.701+03:00  INFO 18924 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 JDBC repository interfaces.
+2023-04-03T21:26:53.877+03:00  INFO 18924 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2023-04-03T21:26:53.878+03:00  INFO 18924 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-03T21:26:53.879+03:00  INFO 18924 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-04-03T21:26:53.930+03:00  INFO 18924 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-03T21:26:53.931+03:00  INFO 18924 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 785 ms
+2023-04-03T21:26:54.448+03:00  INFO 18924 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4732bcca, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@175227eb, org.springframework.security.web.context.SecurityContextHolderFilter@2694f5cd, org.springframework.security.web.header.HeaderWriterFilter@1a2034, org.springframework.security.web.authentication.logout.LogoutFilter@210973ae, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2d4c3ece, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1ff2cba0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@71f84563, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@703cdc2e, org.springframework.security.web.access.ExceptionTranslationFilter@1c2e5944, org.springframework.security.web.access.intercept.AuthorizationFilter@1bcf98cf]
+2023-04-03T21:26:54.577+03:00  INFO 18924 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-03T21:26:54.602+03:00  INFO 18924 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2023-04-03T21:26:54.610+03:00  INFO 18924 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : Started TacoCloudApplication in 1.528 seconds (process running for 1280.634)
+2023-04-03T21:26:54.613+03:00  INFO 18924 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
 
 
 ==========================
@@ -228,498 +304,6 @@ Unconditional classes:
 
 
 
-2023-03-27T14:37:20.526+03:00  INFO 5868 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : Starting TacoCloudApplication using Java 18.0.1.1 with PID 5868 (C:\projects\taco-cloud\target\classes started by yo114 in C:\projects\taco-cloud)
-2023-03-27T14:37:20.528+03:00  INFO 5868 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : No active profile set, falling back to 1 default profile: "default"
-2023-03-27T14:37:20.558+03:00  INFO 5868 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2023-03-27T14:37:20.558+03:00  INFO 5868 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2023-03-27T14:37:20.925+03:00  INFO 5868 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2023-03-27T14:37:20.938+03:00  INFO 5868 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 JDBC repository interfaces.
-2023-03-27T14:37:21.257+03:00  INFO 5868 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2023-03-27T14:37:21.263+03:00  INFO 5868 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-03-27T14:37:21.263+03:00  INFO 5868 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
-2023-03-27T14:37:21.303+03:00  INFO 5868 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-03-27T14:37:21.303+03:00  INFO 5868 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 744 ms
-2023-03-27T14:37:21.714+03:00  INFO 5868 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7a8cd7, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5108398a, org.springframework.security.web.context.SecurityContextHolderFilter@27000b64, org.springframework.security.web.header.HeaderWriterFilter@6129ab39, org.springframework.security.web.authentication.logout.LogoutFilter@4ae74703, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3f88d1f8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5c31683, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6aecc87, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4ef50459, org.springframework.security.web.access.ExceptionTranslationFilter@50dce7f4, org.springframework.security.web.access.intercept.AuthorizationFilter@553be35a]
-2023-03-27T14:37:21.888+03:00  INFO 5868 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2023-03-27T14:37:21.910+03:00  INFO 5868 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2023-03-27T14:37:21.917+03:00  INFO 5868 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : Started TacoCloudApplication in 1.652 seconds (process running for 2.231)
-2023-03-27T14:37:26.602+03:00  INFO 5868 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-03-27T14:37:26.603+03:00  INFO 5868 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2023-03-27T14:37:26.604+03:00  INFO 5868 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2023-03-27T14:40:41.520+03:00  INFO 14560 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : Starting TacoCloudApplication using Java 18.0.1.1 with PID 14560 (C:\projects\taco-cloud\target\classes started by yo114 in C:\projects\taco-cloud)
-2023-03-27T14:40:41.521+03:00  INFO 14560 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : No active profile set, falling back to 1 default profile: "default"
-2023-03-27T14:40:41.551+03:00  INFO 14560 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2023-03-27T14:40:41.551+03:00  INFO 14560 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2023-03-27T14:40:41.931+03:00  INFO 14560 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2023-03-27T14:40:41.944+03:00  INFO 14560 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 JDBC repository interfaces.
-2023-03-27T14:40:42.273+03:00  INFO 14560 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2023-03-27T14:40:42.279+03:00  INFO 14560 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-03-27T14:40:42.279+03:00  INFO 14560 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
-2023-03-27T14:40:42.320+03:00  INFO 14560 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-03-27T14:40:42.321+03:00  INFO 14560 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 769 ms
-2023-03-27T14:40:42.822+03:00  INFO 14560 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4f3e5a05, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@677d898e, org.springframework.security.web.context.SecurityContextHolderFilter@5501e6d, org.springframework.security.web.header.HeaderWriterFilter@752c30eb, org.springframework.security.web.authentication.logout.LogoutFilter@4fec8f1d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4d596979, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2f211d8b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@47556a4e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4240557e, org.springframework.security.web.access.ExceptionTranslationFilter@7156515a, org.springframework.security.web.access.intercept.AuthorizationFilter@1d6680d1]
-2023-03-27T14:40:43.040+03:00  INFO 14560 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2023-03-27T14:40:43.064+03:00  INFO 14560 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2023-03-27T14:40:43.071+03:00  INFO 14560 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : Started TacoCloudApplication in 1.825 seconds (process running for 2.307)
-2023-03-27T14:40:46.244+03:00  INFO 14560 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-03-27T14:40:46.245+03:00  INFO 14560 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2023-03-27T14:40:46.248+03:00  INFO 14560 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
-2023-03-27T14:45:07.119+03:00  INFO 14632 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : Starting TacoCloudApplication using Java 18.0.1.1 with PID 14632 (C:\projects\taco-cloud\target\classes started by yo114 in C:\projects\taco-cloud)
-2023-03-27T14:45:07.120+03:00  INFO 14632 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : No active profile set, falling back to 1 default profile: "default"
-2023-03-27T14:45:07.152+03:00  INFO 14632 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2023-03-27T14:45:07.153+03:00  INFO 14632 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2023-03-27T14:45:07.508+03:00  INFO 14632 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2023-03-27T14:45:07.520+03:00  INFO 14632 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 JDBC repository interfaces.
-2023-03-27T14:45:07.852+03:00  INFO 14632 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2023-03-27T14:45:07.857+03:00  INFO 14632 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-03-27T14:45:07.857+03:00  INFO 14632 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
-2023-03-27T14:45:07.898+03:00  INFO 14632 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-03-27T14:45:07.898+03:00  INFO 14632 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 745 ms
-2023-03-27T14:45:08.310+03:00  INFO 14632 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@20f14b04, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5f733f86, org.springframework.security.web.context.SecurityContextHolderFilter@476fdac4, org.springframework.security.web.header.HeaderWriterFilter@6d1b0a6e, org.springframework.security.web.authentication.logout.LogoutFilter@ccf6aaf, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@629dc076, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@47bd1f40, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7669fdd8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1eed5d0b, org.springframework.security.web.access.ExceptionTranslationFilter@3f037b7f, org.springframework.security.web.access.intercept.AuthorizationFilter@512e4fd4]
-2023-03-27T14:45:08.481+03:00  INFO 14632 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2023-03-27T14:45:08.503+03:00  INFO 14632 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2023-03-27T14:45:08.511+03:00  INFO 14632 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : Started TacoCloudApplication in 1.647 seconds (process running for 2.066)
-2023-03-27T14:45:14.717+03:00  INFO 14632 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-03-27T14:45:14.718+03:00  INFO 14632 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2023-03-27T14:45:14.719+03:00  INFO 14632 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2023-03-27T19:20:22.902+03:00  INFO 8948 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : Starting TacoCloudApplication using Java 17 with PID 8948 (C:\projects\taco-cloud\target\classes started by lette in C:\projects\taco-cloud)
-2023-03-27T19:20:22.911+03:00  INFO 8948 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : No active profile set, falling back to 1 default profile: "default"
-2023-03-27T19:20:23.098+03:00  INFO 8948 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2023-03-27T19:20:23.098+03:00  INFO 8948 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2023-03-27T19:20:24.969+03:00  INFO 8948 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2023-03-27T19:20:25.017+03:00  INFO 8948 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 37 ms. Found 0 JDBC repository interfaces.
-2023-03-27T19:20:26.191+03:00  INFO 8948 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2023-03-27T19:20:26.209+03:00  INFO 8948 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-03-27T19:20:26.210+03:00  INFO 8948 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
-2023-03-27T19:20:26.321+03:00  INFO 8948 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-03-27T19:20:26.322+03:00  INFO 8948 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3220 ms
-2023-03-27T19:20:28.015+03:00  INFO 8948 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@76082b25, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4f3f453f, org.springframework.security.web.context.SecurityContextHolderFilter@646ed2b2, org.springframework.security.web.header.HeaderWriterFilter@23c5d418, org.springframework.security.web.authentication.logout.LogoutFilter@5e65d832, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7e22e5fd, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@66b77645, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6da98b8a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@34e4bf20, org.springframework.security.web.access.ExceptionTranslationFilter@326e4c69, org.springframework.security.web.access.intercept.AuthorizationFilter@4ba43330]
-2023-03-27T19:20:28.608+03:00  INFO 8948 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2023-03-27T19:20:28.674+03:00  INFO 8948 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2023-03-27T19:20:28.691+03:00  INFO 8948 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : Started TacoCloudApplication in 6.935 seconds (process running for 9.929)
-2023-03-27T19:20:32.181+03:00  INFO 8948 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-03-27T19:20:32.183+03:00  INFO 8948 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2023-03-27T19:20:32.185+03:00  INFO 8948 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2023-03-27T19:23:20.130+03:00  INFO 15636 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : Starting TacoCloudApplication using Java 17 with PID 15636 (C:\projects\taco-cloud\target\classes started by lette in C:\projects\taco-cloud)
-2023-03-27T19:23:20.136+03:00  INFO 15636 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : No active profile set, falling back to 1 default profile: "default"
-2023-03-27T19:23:20.307+03:00  INFO 15636 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2023-03-27T19:23:20.308+03:00  INFO 15636 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2023-03-27T19:23:21.670+03:00  INFO 15636 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2023-03-27T19:23:21.714+03:00  INFO 15636 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 34 ms. Found 0 JDBC repository interfaces.
-2023-03-27T19:23:22.907+03:00  INFO 15636 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2023-03-27T19:23:22.922+03:00  INFO 15636 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-03-27T19:23:22.923+03:00  INFO 15636 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
-2023-03-27T19:23:23.026+03:00  INFO 15636 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-03-27T19:23:23.027+03:00  INFO 15636 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2718 ms
-2023-03-27T19:23:24.645+03:00  INFO 15636 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7e3f1987, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1f96d54, org.springframework.security.web.context.SecurityContextHolderFilter@420ee6e9, org.springframework.security.web.header.HeaderWriterFilter@3f55344, org.springframework.security.web.authentication.logout.LogoutFilter@6abe3dd, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@61d5d085, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@53f65570, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@37c06462, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1e38c63, org.springframework.security.web.access.ExceptionTranslationFilter@3ccfa82f, org.springframework.security.web.access.intercept.AuthorizationFilter@3a6ca5d3]
-2023-03-27T19:23:25.140+03:00  INFO 15636 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2023-03-27T19:23:25.206+03:00  INFO 15636 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2023-03-27T19:23:25.232+03:00  INFO 15636 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : Started TacoCloudApplication in 6.193 seconds (process running for 8.081)
-2023-03-27T19:24:21.565+03:00  INFO 15636 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-2023-03-27T19:24:21.600+03:00  INFO 15636 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2023-03-27T19:24:21.802+03:00  INFO 15636 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : Starting TacoCloudApplication using Java 17 with PID 15636 (C:\projects\taco-cloud\target\classes started by lette in C:\projects\taco-cloud)
-2023-03-27T19:24:21.803+03:00  INFO 15636 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : No active profile set, falling back to 1 default profile: "default"
-2023-03-27T19:24:22.220+03:00  INFO 15636 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2023-03-27T19:24:22.227+03:00  INFO 15636 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 JDBC repository interfaces.
-2023-03-27T19:24:22.382+03:00  INFO 15636 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2023-03-27T19:24:22.383+03:00  INFO 15636 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-03-27T19:24:22.384+03:00  INFO 15636 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
-2023-03-27T19:24:22.419+03:00  INFO 15636 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-03-27T19:24:22.419+03:00  INFO 15636 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 605 ms
-2023-03-27T19:24:23.132+03:00  INFO 15636 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@bec156c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@49eba594, org.springframework.security.web.context.SecurityContextHolderFilter@45afdfe0, org.springframework.security.web.header.HeaderWriterFilter@4e96b08c, org.springframework.security.web.authentication.logout.LogoutFilter@35cb4a2b, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@641981d6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7e635dde, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@75490825, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1fdc93a7, org.springframework.security.web.access.ExceptionTranslationFilter@577b8b5c, org.springframework.security.web.access.intercept.AuthorizationFilter@6c175ed0]
-2023-03-27T19:24:23.305+03:00  INFO 15636 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2023-03-27T19:24:23.331+03:00  INFO 15636 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2023-03-27T19:24:23.339+03:00  INFO 15636 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : Started TacoCloudApplication in 1.648 seconds (process running for 66.187)
-2023-03-27T19:24:23.344+03:00  INFO 15636 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2023-03-27T21:32:38.248+03:00  INFO 15636 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-03-27T21:32:38.274+03:00  INFO 15636 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2023-03-27T21:32:38.349+03:00  INFO 15636 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 74 ms
-2023-03-27T22:10:51.328+03:00  INFO 17108 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : Starting TacoCloudApplication using Java 17 with PID 17108 (C:\projects\taco-cloud\target\classes started by lette in C:\projects\taco-cloud)
-2023-03-27T22:10:51.335+03:00  INFO 17108 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : No active profile set, falling back to 1 default profile: "default"
-2023-03-27T22:10:51.508+03:00  INFO 17108 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2023-03-27T22:10:51.509+03:00  INFO 17108 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2023-03-27T22:10:53.096+03:00  INFO 17108 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2023-03-27T22:10:53.137+03:00  INFO 17108 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30 ms. Found 0 JDBC repository interfaces.
-2023-03-27T22:10:54.341+03:00  INFO 17108 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2023-03-27T22:10:54.359+03:00  INFO 17108 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-03-27T22:10:54.360+03:00  INFO 17108 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
-2023-03-27T22:10:54.479+03:00  INFO 17108 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-03-27T22:10:54.480+03:00  INFO 17108 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2970 ms
-2023-03-27T22:10:55.851+03:00  INFO 17108 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4b25ead1, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@57017c1f, org.springframework.security.web.context.SecurityContextHolderFilter@3d8a6cec, org.springframework.security.web.header.HeaderWriterFilter@10c33ec6, org.springframework.security.web.authentication.logout.LogoutFilter@1d265f81, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@591bf9bd, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@39a08d12, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4e0bb0e1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@243051c9, org.springframework.security.web.access.ExceptionTranslationFilter@1a54d2ac, org.springframework.security.web.access.intercept.AuthorizationFilter@27bc4a40]
-2023-03-27T22:10:56.406+03:00  INFO 17108 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2023-03-27T22:10:56.492+03:00  INFO 17108 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2023-03-27T22:10:56.509+03:00  INFO 17108 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : Started TacoCloudApplication in 6.756 seconds (process running for 9.924)
-2023-03-27T22:14:32.707+03:00  INFO 17108 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-03-27T22:14:32.709+03:00  INFO 17108 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2023-03-27T22:14:32.716+03:00  INFO 17108 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
-2023-03-27T22:14:55.581+03:00  INFO 17108 --- [http-nio-8080-exec-6] c.e.tacocloud.web.DesignTacoController   : showDesignForm
-2023-03-27T22:16:14.982+03:00 ERROR 17108 --- [http-nio-8080-exec-10] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8080-exec-10] Exception processing template "orderList": Error resolving template [orderList], template might not exist or might not be accessible by any of the configured Template Resolvers
-
-org.thymeleaf.exceptions.TemplateInputException: Error resolving template [orderList], template might not exist or might not be accessible by any of the configured Template Resolvers
-	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372) ~[thymeleaf-spring6-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192) ~[thymeleaf-spring6-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1415) ~[spring-webmvc-6.0.5.jar:6.0.5]
-	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1159) ~[spring-webmvc-6.0.5.jar:6.0.5]
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1098) ~[spring-webmvc-6.0.5.jar:6.0.5]
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974) ~[spring-webmvc-6.0.5.jar:6.0.5]
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011) ~[spring-webmvc-6.0.5.jar:6.0.5]
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.0.5.jar:6.0.5]
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:705) ~[tomcat-embed-core-10.1.5.jar:6.0]
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.0.5.jar:6.0.5]
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814) ~[tomcat-embed-core-10.1.5.jar:6.0]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-10.1.5.jar:10.1.5]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
-	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231) ~[spring-security-web-6.0.2.jar:6.0.2]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:365) ~[spring-security-web-6.0.2.jar:6.0.2]
-	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:100) ~[spring-security-web-6.0.2.jar:6.0.2]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.0.2.jar:6.0.2]
-	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126) ~[spring-security-web-6.0.2.jar:6.0.2]
-	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120) ~[spring-security-web-6.0.2.jar:6.0.2]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.0.2.jar:6.0.2]
-	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100) ~[spring-security-web-6.0.2.jar:6.0.2]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.0.2.jar:6.0.2]
-	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179) ~[spring-security-web-6.0.2.jar:6.0.2]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.0.2.jar:6.0.2]
-	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-6.0.2.jar:6.0.2]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.0.2.jar:6.0.2]
-	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:227) ~[spring-security-web-6.0.2.jar:6.0.2]
-	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:221) ~[spring-security-web-6.0.2.jar:6.0.2]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.0.2.jar:6.0.2]
-	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.0.2.jar:6.0.2]
-	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93) ~[spring-security-web-6.0.2.jar:6.0.2]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.0.2.jar:6.0.2]
-	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-6.0.2.jar:6.0.2]
-	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-6.0.2.jar:6.0.2]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.5.jar:6.0.5]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.0.2.jar:6.0.2]
-	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-6.0.2.jar:6.0.2]
-	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-6.0.2.jar:6.0.2]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.0.2.jar:6.0.2]
-	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-6.0.2.jar:6.0.2]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.5.jar:6.0.5]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.0.2.jar:6.0.2]
-	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-6.0.2.jar:6.0.2]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.5.jar:6.0.5]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.0.2.jar:6.0.2]
-	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233) ~[spring-security-web-6.0.2.jar:6.0.2]
-	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191) ~[spring-security-web-6.0.2.jar:6.0.2]
-	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352) ~[spring-web-6.0.5.jar:6.0.5]
-	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268) ~[spring-web-6.0.5.jar:6.0.5]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.5.jar:6.0.5]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.5.jar:6.0.5]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.0.5.jar:6.0.5]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.5.jar:6.0.5]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.0.5.jar:6.0.5]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.5.jar:6.0.5]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
-	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
-
-2023-03-27T22:16:15.020+03:00 ERROR 17108 --- [http-nio-8080-exec-10] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.thymeleaf.exceptions.TemplateInputException: Error resolving template [orderList], template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause
-
-org.thymeleaf.exceptions.TemplateInputException: Error resolving template [orderList], template might not exist or might not be accessible by any of the configured Template Resolvers
-	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372) ~[thymeleaf-spring6-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192) ~[thymeleaf-spring6-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1415) ~[spring-webmvc-6.0.5.jar:6.0.5]
-	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1159) ~[spring-webmvc-6.0.5.jar:6.0.5]
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1098) ~[spring-webmvc-6.0.5.jar:6.0.5]
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974) ~[spring-webmvc-6.0.5.jar:6.0.5]
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011) ~[spring-webmvc-6.0.5.jar:6.0.5]
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.0.5.jar:6.0.5]
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:705) ~[tomcat-embed-core-10.1.5.jar:6.0]
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.0.5.jar:6.0.5]
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814) ~[tomcat-embed-core-10.1.5.jar:6.0]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-10.1.5.jar:10.1.5]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
-	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231) ~[spring-security-web-6.0.2.jar:6.0.2]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:365) ~[spring-security-web-6.0.2.jar:6.0.2]
-	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:100) ~[spring-security-web-6.0.2.jar:6.0.2]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.0.2.jar:6.0.2]
-	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126) ~[spring-security-web-6.0.2.jar:6.0.2]
-	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120) ~[spring-security-web-6.0.2.jar:6.0.2]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.0.2.jar:6.0.2]
-	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100) ~[spring-security-web-6.0.2.jar:6.0.2]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.0.2.jar:6.0.2]
-	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179) ~[spring-security-web-6.0.2.jar:6.0.2]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.0.2.jar:6.0.2]
-	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-6.0.2.jar:6.0.2]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.0.2.jar:6.0.2]
-	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:227) ~[spring-security-web-6.0.2.jar:6.0.2]
-	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:221) ~[spring-security-web-6.0.2.jar:6.0.2]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.0.2.jar:6.0.2]
-	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.0.2.jar:6.0.2]
-	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93) ~[spring-security-web-6.0.2.jar:6.0.2]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.0.2.jar:6.0.2]
-	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-6.0.2.jar:6.0.2]
-	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-6.0.2.jar:6.0.2]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.5.jar:6.0.5]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.0.2.jar:6.0.2]
-	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-6.0.2.jar:6.0.2]
-	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-6.0.2.jar:6.0.2]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.0.2.jar:6.0.2]
-	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-6.0.2.jar:6.0.2]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.5.jar:6.0.5]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.0.2.jar:6.0.2]
-	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-6.0.2.jar:6.0.2]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.5.jar:6.0.5]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.0.2.jar:6.0.2]
-	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233) ~[spring-security-web-6.0.2.jar:6.0.2]
-	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191) ~[spring-security-web-6.0.2.jar:6.0.2]
-	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352) ~[spring-web-6.0.5.jar:6.0.5]
-	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268) ~[spring-web-6.0.5.jar:6.0.5]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.5.jar:6.0.5]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.5.jar:6.0.5]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.0.5.jar:6.0.5]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.5.jar:6.0.5]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.0.5.jar:6.0.5]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.5.jar:6.0.5]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
-	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
-
-2023-03-27T22:16:47.834+03:00  INFO 5144 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : Starting TacoCloudApplication using Java 17 with PID 5144 (C:\projects\taco-cloud\target\classes started by lette in C:\projects\taco-cloud)
-2023-03-27T22:16:47.839+03:00  INFO 5144 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : No active profile set, falling back to 1 default profile: "default"
-2023-03-27T22:16:47.947+03:00  INFO 5144 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2023-03-27T22:16:47.948+03:00  INFO 5144 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2023-03-27T22:16:49.069+03:00  INFO 5144 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2023-03-27T22:16:49.104+03:00  INFO 5144 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 26 ms. Found 0 JDBC repository interfaces.
-2023-03-27T22:16:49.978+03:00  INFO 5144 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2023-03-27T22:16:49.993+03:00  INFO 5144 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-03-27T22:16:49.994+03:00  INFO 5144 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
-2023-03-27T22:16:50.091+03:00  INFO 5144 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-03-27T22:16:50.091+03:00  INFO 5144 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2142 ms
-2023-03-27T22:16:51.104+03:00  INFO 5144 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@67ad7b21, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7eb2d620, org.springframework.security.web.context.SecurityContextHolderFilter@19587144, org.springframework.security.web.header.HeaderWriterFilter@5b146e22, org.springframework.security.web.authentication.logout.LogoutFilter@68b34bd4, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@f758937, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7408b995, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@ad7fabd, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@38403106, org.springframework.security.web.access.ExceptionTranslationFilter@1ea08bab, org.springframework.security.web.access.intercept.AuthorizationFilter@3aef2e7d]
-2023-03-27T22:16:51.528+03:00  INFO 5144 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2023-03-27T22:16:51.589+03:00  INFO 5144 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2023-03-27T22:16:51.604+03:00  INFO 5144 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : Started TacoCloudApplication in 4.817 seconds (process running for 8.368)
-2023-03-27T22:18:23.458+03:00  INFO 5144 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-2023-03-27T22:18:23.489+03:00  INFO 5144 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2023-03-27T22:18:23.694+03:00  INFO 5144 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : Starting TacoCloudApplication using Java 17 with PID 5144 (C:\projects\taco-cloud\target\classes started by lette in C:\projects\taco-cloud)
-2023-03-27T22:18:23.695+03:00  INFO 5144 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : No active profile set, falling back to 1 default profile: "default"
-2023-03-27T22:18:24.027+03:00  INFO 5144 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2023-03-27T22:18:24.035+03:00  INFO 5144 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 0 JDBC repository interfaces.
-2023-03-27T22:18:24.195+03:00  INFO 5144 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8443 (http)
-2023-03-27T22:18:24.197+03:00  INFO 5144 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-03-27T22:18:24.198+03:00  INFO 5144 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
-2023-03-27T22:18:24.279+03:00  INFO 5144 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-03-27T22:18:24.280+03:00  INFO 5144 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 578 ms
-2023-03-27T22:18:24.842+03:00  INFO 5144 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@356ba9ef, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@dd24c0b, org.springframework.security.web.context.SecurityContextHolderFilter@54f0617e, org.springframework.security.web.header.HeaderWriterFilter@6a11623f, org.springframework.security.web.authentication.logout.LogoutFilter@279cc555, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@741c7c54, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4e1e1d00, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@11d13933, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@28a3113a, org.springframework.security.web.access.ExceptionTranslationFilter@dba455d, org.springframework.security.web.access.intercept.AuthorizationFilter@1549003]
-2023-03-27T22:18:24.993+03:00  INFO 5144 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2023-03-27T22:18:25.020+03:00  INFO 5144 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8443 (http) with context path ''
-2023-03-27T22:18:25.029+03:00  INFO 5144 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : Started TacoCloudApplication in 1.434 seconds (process running for 101.794)
-2023-03-27T22:18:25.033+03:00  INFO 5144 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2023-03-27T22:19:22.751+03:00  INFO 18744 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : Starting TacoCloudApplication using Java 17 with PID 18744 (C:\projects\taco-cloud\target\classes started by lette in C:\projects\taco-cloud)
-2023-03-27T22:19:22.755+03:00  INFO 18744 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : No active profile set, falling back to 1 default profile: "default"
-2023-03-27T22:19:22.852+03:00  INFO 18744 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2023-03-27T22:19:22.852+03:00  INFO 18744 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2023-03-27T22:19:23.960+03:00  INFO 18744 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2023-03-27T22:19:23.991+03:00  INFO 18744 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24 ms. Found 0 JDBC repository interfaces.
-2023-03-27T22:19:24.889+03:00  INFO 18744 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8443 (http)
-2023-03-27T22:19:24.904+03:00  INFO 18744 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-03-27T22:19:24.905+03:00  INFO 18744 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
-2023-03-27T22:19:25.007+03:00  INFO 18744 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-03-27T22:19:25.008+03:00  INFO 18744 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2155 ms
-2023-03-27T22:19:26.181+03:00  INFO 18744 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@f5ba2a4, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5953bda3, org.springframework.security.web.context.SecurityContextHolderFilter@1baf3a64, org.springframework.security.web.header.HeaderWriterFilter@431b7ae4, org.springframework.security.web.authentication.logout.LogoutFilter@33f91b3b, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2901473c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@10d2fb34, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@61f8871b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@421faeca, org.springframework.security.web.access.ExceptionTranslationFilter@322ec945, org.springframework.security.web.access.intercept.AuthorizationFilter@380de2a2]
-2023-03-27T22:19:26.629+03:00  INFO 18744 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2023-03-27T22:19:26.682+03:00  INFO 18744 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8443 (http) with context path ''
-2023-03-27T22:19:26.702+03:00  INFO 18744 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : Started TacoCloudApplication in 5.353 seconds (process running for 7.43)
-2023-03-27T22:22:49.157+03:00  INFO 3640 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : Starting TacoCloudApplication using Java 17 with PID 3640 (C:\projects\taco-cloud\target\classes started by lette in C:\projects\taco-cloud)
-2023-03-27T22:22:49.162+03:00  INFO 3640 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : No active profile set, falling back to 1 default profile: "default"
-2023-03-27T22:22:49.275+03:00  INFO 3640 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2023-03-27T22:22:49.275+03:00  INFO 3640 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2023-03-27T22:22:50.486+03:00  INFO 3640 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2023-03-27T22:22:50.517+03:00  INFO 3640 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23 ms. Found 0 JDBC repository interfaces.
-2023-03-27T22:22:51.397+03:00  INFO 3640 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
-2023-03-27T22:22:51.420+03:00  INFO 3640 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-03-27T22:22:51.421+03:00  INFO 3640 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
-2023-03-27T22:22:51.520+03:00  INFO 3640 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-03-27T22:22:51.521+03:00  INFO 3640 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2245 ms
-2023-03-27T22:22:52.541+03:00  INFO 3640 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@277149dd, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@24eb2e4f, org.springframework.security.web.context.SecurityContextHolderFilter@1c568b5b, org.springframework.security.web.header.HeaderWriterFilter@5284115f, org.springframework.security.web.authentication.logout.LogoutFilter@684f7f5b, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@573987eb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@591b0dc5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7dbced9a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1674d04a, org.springframework.security.web.access.ExceptionTranslationFilter@10f1982d, org.springframework.security.web.access.intercept.AuthorizationFilter@579fcd8b]
-2023-03-27T22:22:53.011+03:00  INFO 3640 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2023-03-27T22:22:53.070+03:00  INFO 3640 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
-2023-03-27T22:22:53.086+03:00  INFO 3640 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : Started TacoCloudApplication in 4.951 seconds (process running for 6.649)
-2023-03-27T22:43:50.987+03:00  INFO 7096 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : Starting TacoCloudApplication using Java 17 with PID 7096 (C:\projects\taco-cloud\target\classes started by lette in C:\projects\taco-cloud)
-2023-03-27T22:43:50.993+03:00  INFO 7096 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : No active profile set, falling back to 1 default profile: "default"
-2023-03-27T22:43:51.191+03:00  INFO 7096 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2023-03-27T22:43:51.192+03:00  INFO 7096 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2023-03-27T22:43:53.139+03:00  INFO 7096 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2023-03-27T22:43:53.195+03:00  INFO 7096 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 41 ms. Found 0 JDBC repository interfaces.
-2023-03-27T22:43:54.341+03:00  INFO 7096 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
-2023-03-27T22:43:54.355+03:00  INFO 7096 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-03-27T22:43:54.356+03:00  INFO 7096 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
-2023-03-27T22:43:54.455+03:00  INFO 7096 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-03-27T22:43:54.456+03:00  INFO 7096 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3263 ms
-2023-03-27T22:43:55.721+03:00  INFO 7096 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3e0544e5, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@64571fc9, org.springframework.security.web.context.SecurityContextHolderFilter@3238ccf1, org.springframework.security.web.header.HeaderWriterFilter@21a86bef, org.springframework.security.web.authentication.logout.LogoutFilter@b18c266, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@64d1b679, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@19bad693, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@116dbd1d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7ad9fde4, org.springframework.security.web.access.ExceptionTranslationFilter@5f9dcc7, org.springframework.security.web.access.intercept.AuthorizationFilter@c5104ec]
-2023-03-27T22:43:56.174+03:00  INFO 7096 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2023-03-27T22:43:56.228+03:00  INFO 7096 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
-2023-03-27T22:43:56.243+03:00  INFO 7096 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : Started TacoCloudApplication in 6.363 seconds (process running for 8.122)
-2023-03-27T22:47:43.030+03:00  INFO 18500 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : Starting TacoCloudApplication using Java 17 with PID 18500 (C:\projects\taco-cloud\target\classes started by lette in C:\projects\taco-cloud)
-2023-03-27T22:47:43.034+03:00  INFO 18500 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : No active profile set, falling back to 1 default profile: "default"
-2023-03-27T22:47:43.159+03:00  INFO 18500 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2023-03-27T22:47:43.160+03:00  INFO 18500 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2023-03-27T22:47:44.304+03:00  INFO 18500 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2023-03-27T22:47:44.335+03:00  INFO 18500 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24 ms. Found 0 JDBC repository interfaces.
-2023-03-27T22:47:45.455+03:00  INFO 18500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
-2023-03-27T22:47:45.470+03:00  INFO 18500 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-03-27T22:47:45.471+03:00  INFO 18500 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
-2023-03-27T22:47:45.568+03:00  INFO 18500 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-03-27T22:47:45.570+03:00  INFO 18500 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2408 ms
-2023-03-27T22:47:46.736+03:00  INFO 18500 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@735acab2, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7ea6f93e, org.springframework.security.web.context.SecurityContextHolderFilter@671a247b, org.springframework.security.web.header.HeaderWriterFilter@af8de1e, org.springframework.security.web.authentication.logout.LogoutFilter@308894ff, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@14edbff2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4d86efcc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@21857459, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1189d941, org.springframework.security.web.access.ExceptionTranslationFilter@2a608d79, org.springframework.security.web.access.intercept.AuthorizationFilter@5a446d9b]
-2023-03-27T22:47:47.167+03:00  INFO 18500 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2023-03-27T22:47:47.224+03:00  INFO 18500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
-2023-03-27T22:47:47.240+03:00  INFO 18500 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : Started TacoCloudApplication in 5.096 seconds (process running for 6.937)
-2023-03-27T22:49:51.036+03:00  INFO 15224 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : Starting TacoCloudApplication using Java 17 with PID 15224 (C:\projects\taco-cloud\target\classes started by lette in C:\projects\taco-cloud)
-2023-03-27T22:49:51.040+03:00  INFO 15224 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : No active profile set, falling back to 1 default profile: "default"
-2023-03-27T22:49:51.136+03:00  INFO 15224 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2023-03-27T22:49:51.137+03:00  INFO 15224 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2023-03-27T22:49:52.259+03:00  INFO 15224 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2023-03-27T22:49:52.295+03:00  INFO 15224 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30 ms. Found 0 JDBC repository interfaces.
-2023-03-27T22:49:53.187+03:00  INFO 15224 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
-2023-03-27T22:49:53.210+03:00  INFO 15224 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-03-27T22:49:53.211+03:00  INFO 15224 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
-2023-03-27T22:49:53.306+03:00  INFO 15224 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-03-27T22:49:53.307+03:00  INFO 15224 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2168 ms
-2023-03-27T22:49:54.343+03:00  INFO 15224 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@77e3feb8, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@43a05ca2, org.springframework.security.web.context.SecurityContextHolderFilter@1e45df2a, org.springframework.security.web.header.HeaderWriterFilter@e6358be, org.springframework.security.web.authentication.logout.LogoutFilter@570cd8b, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@792f42ed, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@72008099, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@45a6a892, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@16582d39, org.springframework.security.web.access.ExceptionTranslationFilter@38935ee2, org.springframework.security.web.access.intercept.AuthorizationFilter@1a818861]
-2023-03-27T22:49:54.772+03:00  INFO 15224 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2023-03-27T22:49:54.832+03:00  INFO 15224 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
-2023-03-27T22:49:54.848+03:00  INFO 15224 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : Started TacoCloudApplication in 4.676 seconds (process running for 6.449)
-2023-03-27T22:50:22.279+03:00  INFO 15104 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : Starting TacoCloudApplication using Java 17 with PID 15104 (C:\projects\taco-cloud\target\classes started by lette in C:\projects\taco-cloud)
-2023-03-27T22:50:22.283+03:00  INFO 15104 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : No active profile set, falling back to 1 default profile: "default"
-2023-03-27T22:50:22.394+03:00  INFO 15104 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2023-03-27T22:50:22.396+03:00  INFO 15104 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2023-03-27T22:50:23.488+03:00  INFO 15104 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2023-03-27T22:50:23.520+03:00  INFO 15104 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 25 ms. Found 0 JDBC repository interfaces.
-2023-03-27T22:50:24.366+03:00  INFO 15104 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
-2023-03-27T22:50:24.379+03:00  INFO 15104 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-03-27T22:50:24.380+03:00  INFO 15104 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
-2023-03-27T22:50:24.475+03:00  INFO 15104 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-03-27T22:50:24.475+03:00  INFO 15104 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2077 ms
-2023-03-27T22:50:25.570+03:00  INFO 15104 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1aa8f435, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@77e3feb8, org.springframework.security.web.context.SecurityContextHolderFilter@19db8240, org.springframework.security.web.header.HeaderWriterFilter@2c257796, org.springframework.security.web.authentication.logout.LogoutFilter@46a8626c, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1a818861, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@af7d2f4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3354f229, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@43a05ca2, org.springframework.security.web.access.ExceptionTranslationFilter@346290d2, org.springframework.security.web.access.intercept.AuthorizationFilter@63db2a4]
-2023-03-27T22:50:25.977+03:00  INFO 15104 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2023-03-27T22:50:26.031+03:00  INFO 15104 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
-2023-03-27T22:50:26.047+03:00  INFO 15104 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : Started TacoCloudApplication in 5.105 seconds (process running for 7.233)
-2023-03-27T22:50:51.047+03:00  INFO 9616 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : Starting TacoCloudApplication using Java 17 with PID 9616 (C:\projects\taco-cloud\target\classes started by lette in C:\projects\taco-cloud)
-2023-03-27T22:50:51.051+03:00  INFO 9616 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : No active profile set, falling back to 1 default profile: "default"
-2023-03-27T22:50:51.193+03:00  INFO 9616 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2023-03-27T22:50:51.194+03:00  INFO 9616 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2023-03-27T22:50:52.266+03:00  INFO 9616 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2023-03-27T22:50:52.302+03:00  INFO 9616 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 0 JDBC repository interfaces.
-2023-03-27T22:50:53.118+03:00  INFO 9616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
-2023-03-27T22:50:53.134+03:00  INFO 9616 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-03-27T22:50:53.136+03:00  INFO 9616 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
-2023-03-27T22:50:53.239+03:00  INFO 9616 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-03-27T22:50:53.240+03:00  INFO 9616 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2045 ms
-2023-03-27T22:50:54.267+03:00  INFO 9616 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@792f42ed, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4d6f60e1, org.springframework.security.web.context.SecurityContextHolderFilter@1c85942a, org.springframework.security.web.header.HeaderWriterFilter@7a0a58b0, org.springframework.security.web.authentication.logout.LogoutFilter@16555685, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@46a8626c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@38935ee2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@e6358be, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@26ac537a, org.springframework.security.web.access.ExceptionTranslationFilter@691f27be, org.springframework.security.web.access.intercept.AuthorizationFilter@fc78eb4]
-2023-03-27T22:50:54.676+03:00  INFO 9616 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2023-03-27T22:50:54.729+03:00  INFO 9616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
-2023-03-27T22:50:54.744+03:00  INFO 9616 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : Started TacoCloudApplication in 4.535 seconds (process running for 6.269)
-2023-03-27T22:51:45.371+03:00  INFO 10220 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : Starting TacoCloudApplication using Java 17 with PID 10220 (C:\projects\taco-cloud\target\classes started by lette in C:\projects\taco-cloud)
-2023-03-27T22:51:45.376+03:00  INFO 10220 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : No active profile set, falling back to 1 default profile: "default"
-2023-03-27T22:51:45.477+03:00  INFO 10220 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2023-03-27T22:51:45.478+03:00  INFO 10220 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2023-03-27T22:51:46.586+03:00  INFO 10220 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2023-03-27T22:51:46.632+03:00  INFO 10220 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 36 ms. Found 0 JDBC repository interfaces.
-2023-03-27T22:51:47.704+03:00  INFO 10220 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
-2023-03-27T22:51:47.718+03:00  INFO 10220 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-03-27T22:51:47.719+03:00  INFO 10220 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
-2023-03-27T22:51:47.804+03:00  INFO 10220 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-03-27T22:51:47.805+03:00  INFO 10220 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2326 ms
-2023-03-27T22:51:48.853+03:00  INFO 10220 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@547ca14, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@27fc0afc, org.springframework.security.web.context.SecurityContextHolderFilter@6c31154b, org.springframework.security.web.header.HeaderWriterFilter@5ba84776, org.springframework.security.web.authentication.logout.LogoutFilter@3c2fe3dc, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5776b1ef, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3ba24938, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2e993b19, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@346b039d, org.springframework.security.web.access.ExceptionTranslationFilter@5b01501, org.springframework.security.web.access.intercept.AuthorizationFilter@50eb0e22]
-2023-03-27T22:51:49.402+03:00  INFO 10220 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2023-03-27T22:51:49.460+03:00  INFO 10220 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
-2023-03-27T22:51:49.478+03:00  INFO 10220 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : Started TacoCloudApplication in 5.261 seconds (process running for 8.379)
-2023-03-27T22:52:05.799+03:00  INFO 10220 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-03-27T22:52:05.800+03:00  INFO 10220 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2023-03-27T22:52:05.804+03:00  INFO 10220 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
-2023-03-27T22:55:12.724+03:00  INFO 10220 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
-2023-03-27T22:55:13.038+03:00  INFO 10220 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2023-03-27T22:55:13.082+03:00  INFO 10220 --- [Thread-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
-2023-03-27T22:55:13.600+03:00  INFO 10220 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : Starting TacoCloudApplication using Java 17 with PID 10220 (C:\projects\taco-cloud\target\classes started by lette in C:\projects\taco-cloud)
-2023-03-27T22:55:13.601+03:00  INFO 10220 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : No active profile set, falling back to 1 default profile: "default"
-2023-03-27T22:55:14.202+03:00  INFO 10220 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2023-03-27T22:55:14.219+03:00  INFO 10220 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 JDBC repository interfaces.
-2023-03-27T22:55:14.575+03:00  INFO 10220 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
-2023-03-27T22:55:14.577+03:00  INFO 10220 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-03-27T22:55:14.577+03:00  INFO 10220 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
-2023-03-27T22:55:14.620+03:00  INFO 10220 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-03-27T22:55:14.620+03:00  INFO 10220 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1010 ms
-2023-03-27T22:55:15.417+03:00  INFO 10220 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@454008fe, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@ff2af30, org.springframework.security.web.context.SecurityContextHolderFilter@d78d36d, org.springframework.security.web.header.HeaderWriterFilter@5e2750a3, org.springframework.security.web.authentication.logout.LogoutFilter@67e2bbf5, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@378f20e9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2e85ac24, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@480c1540, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@18ede67a, org.springframework.security.web.access.ExceptionTranslationFilter@65b06be7, org.springframework.security.web.access.intercept.AuthorizationFilter@4c8b6074]
-2023-03-27T22:55:15.705+03:00  INFO 10220 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2023-03-27T22:55:15.770+03:00  INFO 10220 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
-2023-03-27T22:55:15.786+03:00  INFO 10220 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : Started TacoCloudApplication in 2.397 seconds (process running for 214.687)
-2023-03-27T22:55:15.793+03:00  INFO 10220 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2023-03-27T22:55:17.491+03:00  INFO 10220 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
-2023-03-27T22:55:17.512+03:00  INFO 10220 --- [Thread-7] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2023-03-27T22:55:17.746+03:00  INFO 10220 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : Starting TacoCloudApplication using Java 17 with PID 10220 (C:\projects\taco-cloud\target\classes started by lette in C:\projects\taco-cloud)
-2023-03-27T22:55:17.746+03:00  INFO 10220 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : No active profile set, falling back to 1 default profile: "default"
-2023-03-27T22:55:18.563+03:00  INFO 10220 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2023-03-27T22:55:18.577+03:00  INFO 10220 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 JDBC repository interfaces.
-2023-03-27T22:55:19.176+03:00  INFO 10220 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
-2023-03-27T22:55:19.177+03:00  INFO 10220 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-03-27T22:55:19.178+03:00  INFO 10220 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
-2023-03-27T22:55:19.247+03:00  INFO 10220 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-03-27T22:55:19.249+03:00  INFO 10220 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1495 ms
-2023-03-27T22:55:19.907+03:00  INFO 10220 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4ad3d691, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@74e0a048, org.springframework.security.web.context.SecurityContextHolderFilter@3ce2aa92, org.springframework.security.web.header.HeaderWriterFilter@6fb35653, org.springframework.security.web.authentication.logout.LogoutFilter@5ec55c29, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3e03e16c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@33e00991, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@22e11b2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@31058330, org.springframework.security.web.access.ExceptionTranslationFilter@5f6913e, org.springframework.security.web.access.intercept.AuthorizationFilter@1f0b5579]
-2023-03-27T22:55:20.142+03:00  INFO 10220 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2023-03-27T22:55:20.173+03:00  INFO 10220 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
-2023-03-27T22:55:20.188+03:00  INFO 10220 --- [restartedMain] c.e.tacocloud.TacoCloudApplication       : Started TacoCloudApplication in 2.551 seconds (process running for 219.089)
-2023-03-27T22:55:20.191+03:00  INFO 10220 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2023-03-27T22:55:25.581+03:00  INFO 10220 --- [http-nio-8082-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-03-27T22:55:25.582+03:00  INFO 10220 --- [http-nio-8082-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2023-03-27T22:55:25.586+03:00  INFO 10220 --- [http-nio-8082-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2023-04-03T21:27:15.896+03:00  INFO 18924 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-03T21:27:15.897+03:00  INFO 18924 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-03T21:27:15.906+03:00  INFO 18924 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
