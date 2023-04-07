@@ -13,4 +13,6 @@ public interface OrderRepository {
     void saveUser(User user, Long orderId);
 
     List<TacoOrder> findByUserOrders(User user, Integer pageable);
+
+    void deleteById(Long orderId);
 }

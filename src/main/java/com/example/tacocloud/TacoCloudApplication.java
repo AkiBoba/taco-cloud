@@ -11,7 +11,7 @@ public class TacoCloudApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(TacoCloudApplication.class, args);
-        out.println(String.format("Go to http://localhost:8082/"));
+        out.println(String.format("Go to http://localhost:8080/"));
     }
 
 }

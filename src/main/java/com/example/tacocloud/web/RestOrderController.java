@@ -4,8 +4,11 @@ import com.example.tacocloud.domain.Ingredient;
 import com.example.tacocloud.domain.Taco;
 import com.example.tacocloud.domain.TacoOrder;
 import com.example.tacocloud.repository.IngredientRepository;
+import com.example.tacocloud.repository.OrderRepository;
 import jakarta.validation.Valid;
+import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.Errors;
@@ -17,16 +20,15 @@ import java.util.List;
 @Slf4j
 @SessionAttributes("tacoOrder")
 @RestController
-public class RestTacoController {
+//@CrossOrigin(origins="http://tacocloud:8080")
+@RequiredArgsConstructor
+public class RestOrderController {
 
     private final IngredientRepository ingredientRepository;
+    private final OrderRepository orderRepository;
 
-    public RestTacoController(IngredientRepository ingredientRepository) {
-        this.ingredientRepository = ingredientRepository;
-    }
-
-    @PostMapping("/ordersadd")
-    public ResponseEntity processTaco(@RequestBody @Valid Taco taco, Errors errors, @ModelAttribute TacoOrder tacoOrder) {
+    @PostMapping("/orderadd")
+    public ResponseEntity<?> processTaco(@RequestBody @Valid Taco taco, Errors errors, @ModelAttribute TacoOrder tacoOrder) {
         if (errors.hasErrors()) {
             return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
         }
@@ -40,5 +42,15 @@ public class RestTacoController {
         tacoOrder.addTaco(taco);
         log.info("Processing taco: {}", taco);
         return new ResponseEntity<>(HttpStatus.OK);
+    }
+
+    @PostMapping("/delorder/{orderId}")
+    @ResponseStatus(HttpStatus.NO_CONTENT)
+    public void deleteOrder(@PathVariable("orderId") Long orderId) {
+        try {
+            orderRepository.deleteById(orderId);
+        } catch (Exception e) {
+            log.error("SQL error {}", e.getMessage());
+        }
     }
 }

@@ -22,6 +22,7 @@ public class JdbcOrderRepository implements OrderRepository {
     private static final String insert_into_Ingredient_Ref = "insert into Ingredient_Ref (ingredient, taco, taco_key) values (?, ?, ?)";
     private static final String insert_into_user_order = "insert into user_order (user_id, order_id) values (?, ?)";
     private static final String find_user_orders = "SELECT uo.user_id as user_id, o.id as order_id, o.placed_at as placed_at FROM user_order as uo JOIN taco_order AS o ON o.id = uo.order_id where uo.user_id = ? ORDER by o.placed_at DESC LIMIT ?";
+    private static final String delete_by_id = "delete from taco_order where id = ?";
     private JdbcTemplate template;
 
     public JdbcOrderRepository(JdbcTemplate template) {
@@ -96,4 +97,10 @@ public class JdbcOrderRepository implements OrderRepository {
                 user.getId(),
                 pageSize);
     }
+
+    @Override
+    public void deleteById(Long orderId) {
+        template.update(delete_by_id, orderId);
+    }
+
 }

@@ -1,20 +1,20 @@
 package com.example.tacocloud.domain;
 
-import java.sql.Timestamp;
-import java.util.Date;
-import java.util.List;
-
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import org.springframework.data.annotation.Id;
-import org.springframework.data.relational.core.mapping.Table;
+
+import java.util.Date;
+import java.util.List;
 
 /**
  * Класс содержит поля идентифицирующие характеристики Тако
  * @Ingredient
  */
 @Data
+@NoArgsConstructor
 public class Taco {
     @Id
     private Long id;
@@ -25,4 +25,11 @@ public class Taco {
     @NotNull
     @Size(min=1, message="You must choose at least 1 ingredient")
     private List<Ingredient> ingredients;
+
+
+    public Taco(Long id, Date createdAt, String name) {
+        this.id = id;
+        this.createdAt = createdAt;
+        this.name = name;
+    }
 }

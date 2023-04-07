@@ -1,4 +1,4 @@
- $("#save").click(function () {
+$("#save").click(function () {
      let ingredients = getIngredients();
      let name = $("#name").val();
      let taco = createTacoObject(name, ingredients);
@@ -59,7 +59,7 @@
  function save(taco) {
      console.log("save")
      $.ajax({
-         url: '/ordersadd',
+         url: '/orderadd',
          type: 'post',
          data: JSON.stringify(taco),
          headers: {
