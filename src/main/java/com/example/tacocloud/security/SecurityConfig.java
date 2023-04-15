@@ -1,7 +1,7 @@
 package com.example.tacocloud.security;
 
 import com.example.tacocloud.domain.User;
-import com.example.tacocloud.repository.UserRepository;
+import com.example.tacocloud.web.repository.UserRepository;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
@@ -10,8 +10,6 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
-
-import java.util.Optional;
 
 @Configuration
 public class SecurityConfig {
@@ -53,4 +51,5 @@ public class SecurityConfig {
                 .disable()
                 .build();
     }
+
 }

@@ -3,7 +3,7 @@ package com.example.tacocloud.web;
 import com.example.tacocloud.domain.TacoOrder;
 import com.example.tacocloud.domain.User;
 import com.example.tacocloud.props.OrderProps;
-import com.example.tacocloud.repository.OrderRepository;
+import com.example.tacocloud.web.repository.OrderRepository;
 import jakarta.validation.Valid;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;

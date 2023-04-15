@@ -1,4 +1,4 @@
-package com.example.tacocloud.repository;
+package com.example.tacocloud.web.repository;
 
 import com.example.tacocloud.domain.Ingredient;
 import org.springframework.data.repository.CrudRepository;
@@ -11,4 +11,5 @@ public interface IngredientRepository {
     Optional<Ingredient> findById(String id);
     Ingredient save(Ingredient ingredient);
 
+    void deleteById(String ingredientId);
 }

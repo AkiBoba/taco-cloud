@@ -1,4 +1,4 @@
-package com.example.tacocloud.repository;
+package com.example.tacocloud.web.repository;
 
 import com.example.tacocloud.domain.TacoOrder;
 import com.example.tacocloud.domain.User;

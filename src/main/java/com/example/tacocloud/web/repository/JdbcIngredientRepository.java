@@ -1,4 +1,4 @@
-package com.example.tacocloud.repository;
+package com.example.tacocloud.web.repository;
 
 import com.example.tacocloud.domain.Ingredient;
 import org.springframework.jdbc.core.JdbcTemplate;
@@ -51,7 +51,7 @@ public class JdbcIngredientRepository implements IngredientRepository {
 
     /**
      * @param ingredient
-     * @return
+     * @return ingredient
      */
     @Override
     public Ingredient save(Ingredient ingredient) {
@@ -61,5 +61,13 @@ public class JdbcIngredientRepository implements IngredientRepository {
                 ingredient.getName(),
                 ingredient.getType().toString());
         return ingredient;
+    }
+
+    @Override
+    public void deleteById(String ingredientId) {
+        jdbcTemplate.update(
+                "delete from Ingredient where id = ?",
+                ingredientId
+        );
     }
 }

@@ -3,12 +3,11 @@ package com.example.tacocloud.web;
 import com.example.tacocloud.domain.Ingredient;
 import com.example.tacocloud.domain.Taco;
 import com.example.tacocloud.domain.TacoOrder;
-import com.example.tacocloud.repository.IngredientRepository;
-import com.example.tacocloud.repository.OrderRepository;
+import com.example.tacocloud.web.repository.IngredientRepository;
+import com.example.tacocloud.web.repository.OrderRepository;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.Errors;
@@ -20,7 +19,7 @@ import java.util.List;
 @Slf4j
 @SessionAttributes("tacoOrder")
 @RestController
-//@CrossOrigin(origins="http://tacocloud:8080")
+@CrossOrigin(origins="http://tacocloud:8080")
 @RequiredArgsConstructor
 public class RestOrderController {
 

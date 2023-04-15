@@ -2,11 +2,9 @@ package com.example.tacocloud.web.api;
 
 import com.example.tacocloud.domain.Ingredient;
 import com.example.tacocloud.domain.Taco;
-import com.example.tacocloud.repository.OrderRepository;
-import com.example.tacocloud.repository.TacoPepository;
+import com.example.tacocloud.web.repository.OrderRepository;
+import com.example.tacocloud.web.repository.TacoPepository;
 import lombok.RequiredArgsConstructor;
-import org.springframework.dao.EmptyResultDataAccessException;
-import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
